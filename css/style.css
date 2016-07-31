@@ -1,0 +1,79 @@
+html {
+	background: #fff;
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+
+@font-face {
+	font-family: "OpenSansCond";
+	src: url("../fonts/OpenSansCondensed/OpenSans-CondLight.eot");
+	src: local('O'),
+	url("../fonts/OpenSansCondensed/OpenSans-CondLight.eot?") format("embedded-opentype"),
+	url("../fonts/OpenSansCondensed/OpenSans-CondLight.woff") format("woff"),
+	url("../fonts/OpenSansCondensed/OpenSans-CondLight.woff2") format("woff2"),
+	url("../fonts/OpenSansCondensed/OpenSans-CondLight.ttf") format("truetype"),
+	url("../fonts/OpenSansCondensed/OpenSans-CondLight.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
+	src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+	url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+	url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),
+	url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+	url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../bootstrap/fonts/fontawesome-webfont.eot');
+	src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),
+	url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),
+	url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),
+	url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');
+}
+
+
+a img {
+	border: none;
+	outline: none !important;
+}
+a{
+	outline: none !important;  /* убирает обводку у кнопок и ссылок */
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+.image_hover {
+	position: absolute;
+}
+.image_upper {
+	position: relative;
+}
+.image_upper:hover {
+	opacity: 0;
+}
+
+/* для iphone - убирает автоматическое откругление уголов */
+input[type="text"],input[type="password"], textarea{
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-khtml-border-radius: 0 !important;
+	-webkit-appearance: none;
+	line-height: inherit;
+}
+
+input[type="radio"] {
+	-webkit-appearance: radio;
+}
