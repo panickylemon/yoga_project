@@ -1,6 +1,58 @@
 /*для ie*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	body{
+	body {
 		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.blue-caret {
+		margin-right: 10px;
+	}
+
+	.dropdown-base {
+		padding-left: 10px;
+	}
+	.dropdown-menu-selected.dropdown-menu > li > a{
+		padding: 3px 10px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.register-box a:first-child {
+		margin-left: 7%;
+	}
+
+	.register-box a:last-child {
+		margin-right: 7%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.partner-link {
+		display: none;
+	}
+
+	.logo-box {
+		width: 20%
+	}
+
+	.register-box {
+		width: 27%;
+		margin-left: 3%;
+	}
+
+	.box-place {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.box-place, .partner-link, .register-box, .lang-box {
+		display: none;
+	}
+
+	.logo-box img {
+		width: 145px;
 	}
 }
