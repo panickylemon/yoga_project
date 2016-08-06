@@ -322,3 +322,74 @@ input[type="radio"] {
 .col-md-3, .col-md-2, .col-md-1 {
 	border: 1px solid red;
 }
+
+
+nav ul{
+	width: 100%;
+}
+
+nav li{
+	border: 1px solid red;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav li a{
+	color: #333;
+}
+
+nav li a span{
+	border-bottom: 1px solid #999999;
+}
+
+nav li a:hover span{
+	border-bottom: 1px solid #0085b2;
+}
+
+nav li:first-child{
+	width: 18%;
+}
+
+nav li:nth-child(2){
+	 width: 10%;
+ }
+
+nav li:nth-child(3){
+	width: 14%;
+}
+
+nav li:nth-child(4){
+	width: 12%;
+}
+
+nav li:nth-child(5){
+	width: 11%;
+}
+
+
+nav li:nth-child(6){
+	width: 14%;
+}
+
+
+nav li:nth-child(7){
+	width: 10%;
+}
+
+nav li:nth-child(8){
+	width: 11%;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: #0085b2;
+	color: #ffffff;
+}
+
+.nav .menu-item-select:hover::after{
+	display: inline-block;
+	content: ' ';
+	background: url("../image/pointer_menu.png") no-repeat;
+	width: 21px;
+	height: 18px;
+}
