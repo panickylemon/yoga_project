@@ -337,6 +337,7 @@ nav li{
 
 nav li a{
 	color: #333;
+	padding: 15px 0 !important;
 }
 
 nav li a span{
@@ -386,10 +387,34 @@ nav li:nth-child(8){
 	color: #ffffff;
 }
 
-.nav .menu-item-select:hover::after{
-	display: inline-block;
+/*.nav .menu-item-select:hover::after{*/
+	/*display: inline-block;*/
+	/*content: ' ';*/
+	/*background: url("../image/pointer_menu.png") no-repeat;*/
+	/*width: 21px;*/
+	/*height: 18px;*/
+/*}*/
+
+.pointer-menu{
+	display: block;
 	content: ' ';
 	background: url("../image/pointer_menu.png") no-repeat;
 	width: 21px;
 	height: 18px;
+	border: none;
+	margin: auto;
+
+}
+
+.hidden-arrow{
+	display: none;
+}
+
+.hidden-submenu-place{
+	display: none;
+}
+
+.blue-menu {
+	background-color: #0085b2;
+	color: #ffffff;
 }

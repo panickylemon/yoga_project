@@ -26,7 +26,15 @@
 	.register-box a:last-child {
 		margin-right: 7%;
 	}
+
+	nav li{
+		width: 25% !important;
+	}
 }
+
+
+
+
 
 @media screen and (max-width: 850px) {
 	.partner-link {
