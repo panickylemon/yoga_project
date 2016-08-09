@@ -13,7 +13,8 @@
 	.dropdown-base {
 		padding-left: 10px;
 	}
-	.dropdown-menu-selected.dropdown-menu > li > a{
+
+	.dropdown-menu-selected.dropdown-menu > li > a {
 		padding: 3px 10px;
 	}
 }
@@ -27,20 +28,18 @@
 		margin-right: 7%;
 	}
 
-	nav li{
+	nav li {
 		width: 25% !important;
 	}
-    .submenu, .pointer-menu{
-	    display: none;
-    }
-    header{
-	    border-bottom: 1px solid #dddede;
-    }
+
+	.submenu, .pointer-menu {
+		display: none;
+	}
+
+	header {
+		border-bottom: 1px solid #dddede;
+	}
 }
-
-
-
-
 
 @media screen and (max-width: 850px) {
 	.partner-link {
@@ -66,10 +65,45 @@
 		display: none;
 	}
 
-	.logo-box img {
+	.logo-box, .logo-box img {
 		width: 145px;
+		float: left;
 	}
-nav .menu{
-	display: none;
+
+	nav .menu {
+		display: none;
+	}
+
+	.top-header {
+		margin: 15px auto 18px;
+	}
+	.burger-menu{
+		display: block;
+	}
+
+    nav.container-block{
+	    padding: 0;
+    }
+
+    nav li{
+	    width: 100% !important;
+	    border-top: 1px solid #dddede;
+    }
+	nav li a{
+		padding: 15px 0 !important;
+	}
+	nav li a span{
+		border: none;
+	}
 }
+
+@media screen and (max-width: 332px) {
+	.register-box-mobile a:last-child p{
+		margin: 10px 0 0 0;
+		display: block;
+	}
+	.register-box-mobile{
+		width: 50%;
+		padding: 15px 0;
+	}
 }
