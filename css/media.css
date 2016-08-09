@@ -33,6 +33,9 @@
     .submenu, .pointer-menu{
 	    display: none;
     }
+    header{
+	    border-bottom: 1px solid #dddede;
+    }
 }
 
 
@@ -66,4 +69,7 @@
 	.logo-box img {
 		width: 145px;
 	}
+nav .menu{
+	display: none;
+}
 }

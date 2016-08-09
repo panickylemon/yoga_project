@@ -354,7 +354,7 @@ nav li a:hover span {
 	border-bottom: 1px solid #0085b2;
 }
 
-/*.submenu:hover nav li a span{*/
+/*.submenu:hover + menu li a span{*/
 	/*border-bottom: 1px solid #0085b2;*/
 /*}*/
 
@@ -395,13 +395,6 @@ nav li a:hover span {
 	color: #ffffff;
 }
 
-/*.nav .menu-item-select:hover::after{*/
-/*display: inline-block;*/
-/*content: ' ';*/
-/*background: url("../image/pointer_menu.png") no-repeat;*/
-/*width: 21px;*/
-/*height: 18px;*/
-/*}*/
 
 .pointer-menu {
 	display: block;
@@ -458,4 +451,13 @@ nav li a:hover span {
 .submenu li a:hover, .submenu li a:focus{
 	background: none;
 	color: #333333;
+}
+
+
+/*mobile-menu*/
+
+.burger-menu{
+	display: block;
+	float: right;
+	width: 20px;
 }
