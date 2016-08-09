@@ -30,6 +30,9 @@
 	nav li{
 		width: 25% !important;
 	}
+    .submenu, .pointer-menu{
+	    display: none;
+    }
 }
 
 
