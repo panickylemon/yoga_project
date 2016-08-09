@@ -565,3 +565,22 @@ footer a span{
 main{
 	min-height: 700px;
 }
+
+.collapsing {
+    /* чтобы не было анимации */
+    -webkit-transition: none;
+    transition: none;
+}
+
+.accordion-toggle-expanded {
+    /* для открытого */
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+    color: grey;
+}
+
+.accordion-toggle-collapsed {
+    /* для закрытого */
+     content: "\e114";
+}
