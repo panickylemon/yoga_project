@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/build.css"/>
 	<link rel='stylesheet' href='css/style.css'>
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
@@ -126,7 +127,7 @@
 		<div style="margin: 30px">
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingOne">
+					<div class="panel-heading grey-color" role="tab" id="headingOne">
 
 							<a role="button" data-toggle="collapse" href="#collapseAge" aria-expanded="true"
 							   aria-controls="collapseAge"><h4 class="panel-title">
@@ -138,20 +139,25 @@
 					<div id="collapseAge" class="panel-collapse collapse in" role="tabpanel"
 					     aria-labelledby="headingOne">
 						<div class="panel-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-							squid.
-							3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-							laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-							coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-							anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-							occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-							heard
-							of them accusamus labore sustainable VHS.
+							<form role="form">
+								<div class="checkbox">
+									<input type="checkbox" id="checkbox1">
+									<label for="checkbox1">
+										не важно
+									</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="checkbox2">
+									<label for="checkbox2">
+										до 4 лет
+									</label>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingTwo">
+					<div class="panel-heading grey-color" role="tab" id="headingTwo">
 
 							<a role="button" data-toggle="collapse" href="#collapseTeacher" aria-expanded="true"
 							   aria-controls="collapseTeacher">
@@ -171,19 +177,20 @@
 							occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
 							heard
 							of them accusamus labore sustainable VHS.
+
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingThree">
+					<div class="panel-heading grey-color" role="tab" id="headingThree">
 						<h4 class="panel-title">
-							<a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree"
-							   aria-expanded="false" aria-controls="collapseThree"><span class="accordion-toggle-expanded"></span>
+							<a class="collapsed" role="button" data-toggle="collapse" href="#collapseInstruments"
+							   aria-expanded="false" aria-controls="Instruments"><span class="accordion-toggle-expanded"></span>
 								Инструменты
 							</a>
 						</h4>
 					</div>
-					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+					<div id="collapseInstruments" class="panel-collapse collapse" role="tabpanel"
 					     aria-labelledby="headingThree">
 						<div class="panel-body">
 							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
