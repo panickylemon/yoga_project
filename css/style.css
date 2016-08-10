@@ -572,8 +572,8 @@ main{
 
 .collapsing {
     /* чтобы не было анимации */
-    /*-webkit-transition: none;*/
-    /*transition: none;*/
+    -webkit-transition: none;
+    transition: none;
 }
 
 .accordion-toggle-expanded {
@@ -610,6 +610,15 @@ main{
 	border-color: #ddd;
 }
 
-.panel-collapse{
+.panel-collapse  {
 	background: #eee;
 }
+
+.qweqweqweqweqweqwe  {
+	background: #eee !important;
+}
+
+.panel-default>.panel-heading{
+	background: #fff;
+}
+
