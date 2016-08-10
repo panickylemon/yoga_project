@@ -578,18 +578,19 @@ main{
 
 .accordion-toggle-expanded {
     /* для открытого */
-    float: left;
-	width: 12px;
-	height: 11px;
-	background: url("../image/arrow_top.png") no-repeat;
+	background: url("../image/arrow_top_accordion.png") no-repeat;
 }
 
 .accordion-toggle-collapsed {
-    /* для закрытого */
+	background: url("../image/arrow_bottom_accordion.png") no-repeat;
+}
+
+.accordion-toggle-collapsed, .accordion-toggle-expanded{
+	margin-top: 4px;
+	margin-right: 10px;
 	float: left;
-	width: 12px;
-	height: 11px;
-	background: url("../image/arrow_bottom.png") no-repeat;
+	width: 10px;
+	height: 10px;
 }
 
 .panel-group .panel {
@@ -614,11 +615,31 @@ main{
 	background: #eee;
 }
 
-.qweqweqweqweqweqwe  {
+.grey-color  {
 	background: #eee !important;
 }
 
 .panel-default>.panel-heading{
 	background: #fff;
+	height: 47px;
+}
+
+.panel-heading a{
+	text-decoration: none;
+}
+
+.panel-heading a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+.panel-title {
+	margin-top: 6px;
+	font-size: 14px;
+	color: #333;
+}
+
+.panel-body {
+	padding: 0 15px 15px 15px;
 }
 
