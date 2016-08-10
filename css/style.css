@@ -646,9 +646,9 @@ main {
 	padding: 0 15px;
 }
 
-#collapseTeacher{
-	padding-bottom: 20px;
-}
+/*#collapseTeacher{*/
+	/*padding-bottom: 20px;*/
+/*}*/
 
 
 /*checkbox*/
@@ -704,6 +704,7 @@ input:disabled+label:hover{
 
 .box-filter-select{
 	margin: 0 15px;
+	padding-bottom: 20px;
 }
 
 .filter-select{
