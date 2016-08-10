@@ -586,31 +586,23 @@ main .col-sm-3, .col-sm-4 {
 	text-decoration: none;
 }
 
-
-/*.sorting-box .btn-group{*/
-	/*width: 100%;*/
-	/*max-width: 190px;*/
-/*}*/
-
-
-
 .accurate-select{
 	width: 92%;
-	/*text-align: right;*/
+	text-align: right;
 }
 
 .sorting-box .dropdown-base{
-	width: 96%;
+	width: 100%;
 	max-width: 190px;
-	float: none;
+	float: right;
 }
 
 .sorting-box .dropdown-menu-selected {
-	min-width: 96%;
+	min-width: 100%;
 }
 
 .accurate-sorting-box{
-	margin-left: 25px;
+	/*margin-left: 25px;*/
 	margin-top: 36px;
 }
 
@@ -622,8 +614,8 @@ main .col-sm-3, .col-sm-4 {
 }
 
 .accurate-sorting-box .btn-group{
-	width: 25%;
-	max-width: 195px;
+	/*width: 25%;*/
+	max-width: 190px;
 }
 
 .button-sorting-box{
