@@ -559,7 +559,54 @@ main {
 	padding-top: 48px;
 }
 
-/*accordion*/
+main .col-sm-3, .col-sm-4 {
+	border: 1px solid red;
+}
+
+.sorting-box {
+	width: 100%;
+}
+
+.subsections-link p {
+	float: left;
+	margin-left: 28px;
+}
+
+.subsections-link p:first-child {
+	margin-left: 32px;
+}
+
+.subsections-link a {
+	color: #0085b2;
+	border-bottom: 1px solid #0085b2;
+	cursor: pointer;
+}
+
+.subsections-link a:hover {
+	text-decoration: none;
+}
+
+
+/*.sorting-box .btn-group{*/
+	/*width: 100%;*/
+	/*max-width: 190px;*/
+/*}*/
+
+.sorting-box .dropdown-base{
+	width: 100%;
+	max-width: 190px;
+}
+
+.accurate-sorting-box p{
+	width: 8%;
+}
+
+.accurate-sorting-box .btn-group{
+	width: 23%;
+
+}
+
+	/*accordion*/
 
 .collapsing {
 	/* чтобы не было анимации */
@@ -767,7 +814,7 @@ input:disabled + label:hover {
 	margin-left: 20px;
 }
 
-.link-show-results a{
+.link-show-results a {
 	color: #0085b2;
 }
 
