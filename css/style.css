@@ -592,18 +592,65 @@ main .col-sm-3, .col-sm-4 {
 	/*max-width: 190px;*/
 /*}*/
 
+
+
+.accurate-select{
+	width: 92%;
+	/*text-align: right;*/
+}
+
 .sorting-box .dropdown-base{
-	width: 100%;
+	width: 96%;
 	max-width: 190px;
+	float: none;
+}
+
+.sorting-box .dropdown-menu-selected {
+	min-width: 96%;
+}
+
+.accurate-sorting-box{
+	margin-left: 25px;
+	margin-top: 36px;
 }
 
 .accurate-sorting-box p{
 	width: 8%;
+	margin-top: 9px;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .accurate-sorting-box .btn-group{
-	width: 23%;
+	width: 25%;
+	max-width: 195px;
+}
 
+.button-sorting-box{
+	width: 100%;
+}
+
+.button-sorting-box input{
+	width: 190px;
+	height: 40px;
+	background: #0085b2;
+	color: white;
+	font-weight: 600;
+	border: none;
+	font-size: 16px;
+}
+
+.button-sorting{
+	/*float: right;*/
+	/*display: inline-block;*/
+}
+
+.box{
+	text-align: right;
+}
+
+.dd{
+	display: inline-block;
 }
 
 	/*accordion*/
