@@ -67,7 +67,7 @@ html {
 }
 
 body {
-	margin: 0 0 100px 0;
+	margin: 0 0 394px 0;
 	height: 100%;
 	font-family: OpenSans;
 	font-size: 14px;
@@ -566,21 +566,42 @@ main{
 	min-height: 700px;
 }
 
+
+/*accordion*/
+
+
 .collapsing {
     /* чтобы не было анимации */
-    -webkit-transition: none;
-    transition: none;
+    /*-webkit-transition: none;*/
+    /*transition: none;*/
 }
 
 .accordion-toggle-expanded {
     /* для открытого */
-    font-family: 'Glyphicons Halflings';
-    content: "\e113";
-    float: right;
-    color: grey;
+    float: left;
+	width: 12px;
+	height: 11px;
+	background: url("../image/arrow_top.png") no-repeat;
 }
 
 .accordion-toggle-collapsed {
     /* для закрытого */
-     content: "\e114";
+	float: left;
+	width: 12px;
+	height: 11px;
+	background: url("../image/arrow_bottom.png") no-repeat;
+}
+
+.panel-group .panel {
+	border-radius: 0;
+}
+
+.panel-default>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #ffffff;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border-top: none;
 }
