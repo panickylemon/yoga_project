@@ -605,3 +605,11 @@ main{
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	border-top: none;
 }
+
+.panel-default {
+	border-color: #ddd;
+}
+
+.panel-collapse{
+	background: #eee;
+}
