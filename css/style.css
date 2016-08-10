@@ -608,6 +608,7 @@ main {
 
 .panel-default {
 	border-color: #ddd;
+	position: relative;
 }
 
 .panel-collapse {
@@ -617,7 +618,6 @@ main {
 .grey-color {
 	background: #eee !important;
 }
-
 
 .panel-group .panel + .panel {
 	margin-top: 0;
@@ -644,12 +644,15 @@ main {
 	padding: 0 15px;
 }
 
-/*#collapseTeacher{*/
-	/*padding-bottom: 20px;*/
-/*}*/
-
+.example-filter-block {
+	border-top: 0;
+}
 
 /*checkbox*/
+
+.filter-box form {
+	margin-bottom: 7px;
+}
 
 .checkbox {
 	font-size: 12px;
@@ -685,7 +688,7 @@ main {
 	outline: none;
 }
 
-.checkbox label:hover{
+.checkbox label:hover {
 	color: #bf133f;
 }
 
@@ -693,19 +696,18 @@ main {
 	color: #0085b2;
 }
 
-input:disabled+label:hover{
+input:disabled + label:hover {
 	color: #333;
 }
 
-
 /*filter dropdown*/
 
-.box-filter-select{
+.box-filter-select {
 	margin: 0 15px;
 	padding-bottom: 20px;
 }
 
-.filter-select{
+.filter-select {
 	width: 100%;
 }
 
@@ -722,14 +724,14 @@ input:disabled+label:hover{
 	min-width: 100%;
 }
 
-.box-filter-select-only{
+.box-filter-select-only {
 	border-bottom: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	padding-top: 12px;
 }
 
-.box-checkbox-only{
+.box-checkbox-only {
 	border-bottom: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
@@ -740,6 +742,35 @@ input:disabled+label:hover{
 	padding-bottom: 12px;
 }
 
-.box-filter-select-only p{
+.box-filter-select-only p {
 	font-weight: 600;
+}
+
+.find-arrow {
+	position: absolute;
+	right: -185px;
+	margin-top: -36px;
+	padding-top: 7px;
+	background: url("../image/find_arrow.png") no-repeat;
+	width: 212px;
+	height: 31px;
+	font-size: 12px;
+}
+
+.quantity-found {
+	margin-left: 38px;
+}
+
+.link-show-results {
+	cursor: pointer;
+	border-bottom: 1px solid #0085b2;
+	margin-left: 20px;
+}
+
+.link-show-results a{
+	color: #0085b2;
+}
+
+.link-show-results a:hover {
+	text-decoration: none;
 }
