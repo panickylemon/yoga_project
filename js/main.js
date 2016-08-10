@@ -23,6 +23,38 @@ $(document).ready(function(){
         $(this).parent().find(".panel-heading").removeClass("grey-color");
     });
 
+    $('.checkbox input').change(function() {
+        showFindArrow(this);
+    });
+
+    //$('.filter-select').on("click", " ul li a", function() {
+    //    var value = $(this).text();
+    //    var first_li_value = $(this).parent().parent().children(":first").text();
+    //    $(this).parent().parent().parent().children("button").html(value+'<span class="blue-caret"></span>');
+    //    $(this).parent().parent().parent().removeClass('open');
+    //    showFindArrow($(this).parent().parent());
+    //    if (value == "Выбрать из списка" ) {
+    //        if (first_li_value == "Выбрать из списка") {
+    //            $(this).parent().parent().children(":first").remove();
+    //        }
+    //    } else {
+    //        if (first_li_value != "Выбрать из списка") {
+    //            $(this).parent().parent().prepend('<li><a href="#">Выбрать из списка</a></li>');
+    //        }
+    //    }
+    //    return false;
+    //});
+
+
+    function showFindArrow(elem) {
+        $( ".find-arrow" ).remove();
+        $(elem).parent().after( '<div class="find-arrow">\
+										<span class="quantity-found">Найдено: 295</span>\
+										<span class="link-show-results">\
+											<a>Показать</a>\
+										</span>\
+									</div>' );
+    }
 
 
     $(".burger-menu").click(function() {
