@@ -17,8 +17,10 @@ $(document).ready(function(){
 
     $('.collapse').on('shown.bs.collapse', function(){
         $(this).parent().find(".accordion-toggle-collapsed").removeClass("accordion-toggle-collapsed").addClass("accordion-toggle-expanded");
+        $(this).parent().find(".panel-heading").addClass("qweqweqweqweqweqwe");
     }).on('hidden.bs.collapse', function(){
         $(this).parent().find(".accordion-toggle-expanded").removeClass("accordion-toggle-expanded").addClass("accordion-toggle-collapsed");
+        $(this).parent().find(".panel-heading").removeClass("qweqweqweqweqweqwe");
     });
 
 
