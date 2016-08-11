@@ -1016,6 +1016,36 @@ nav li a:hover span {
 	border: none;
 }
 
-main .col-sm-3, .col-sm-4 {
-	/*border: 1px solid red;*/
+/*mobile*/
+
+.button-mobile-filter{
+	width: 49%;
+	margin: 15px 0;
+}
+
+.button-filter-show{
+	float: right;
+}
+
+.button-filter-reset{
+	float: left;
+}
+
+.button-mobile-filter input {
+	width: 100%;
+	height: 40px;
+	color: white;
+	font-weight: 600;
+	border: none;
+	font-size: 14px;
+}
+
+.button-filter-show input{
+	background: #0085b2;
+}
+
+.button-filter-reset input{
+	background: #ffffff;
+	border: 1px solid #0085b2;
+	color: #0085b2;
 }
