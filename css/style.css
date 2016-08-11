@@ -629,7 +629,7 @@ main {
 	margin-top: 21px;
 }
 
-.button-sorting-box input {
+.button-sorting-box input, .button-filter-box input {
 	width: 190px;
 	height: 40px;
 	background: #0085b2;
@@ -644,12 +644,25 @@ main {
 	margin-left: 1%;
 }
 
+.button-filter-box{
+	margin: 24px 0 150px;
+}
+
+.button-filter-box .button-sorting {
+	float: none;
+	margin-left: 0;
+}
+
 .button-sorting-map{
 	margin-right: 0;
 }
 
 .button-sorting-list{
 	margin-right: -2px;
+}
+
+.button-filter-box  .button-sorting-map{
+	margin-top: 12px;
 }
 
 
