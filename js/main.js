@@ -27,25 +27,6 @@ $(document).ready(function(){
         showFindArrow(this);
     });
 
-    //$('.filter-select').on("click", " ul li a", function() {
-    //    var value = $(this).text();
-    //    var first_li_value = $(this).parent().parent().children(":first").text();
-    //    $(this).parent().parent().parent().children("button").html(value+'<span class="blue-caret"></span>');
-    //    $(this).parent().parent().parent().removeClass('open');
-    //    showFindArrow($(this).parent().parent());
-    //    if (value == "Выбрать из списка" ) {
-    //        if (first_li_value == "Выбрать из списка") {
-    //            $(this).parent().parent().children(":first").remove();
-    //        }
-    //    } else {
-    //        if (first_li_value != "Выбрать из списка") {
-    //            $(this).parent().parent().prepend('<li><a href="#">Выбрать из списка</a></li>');
-    //        }
-    //    }
-    //    return false;
-    //});
-
-
     function showFindArrow(elem) {
         $( ".find-arrow" ).remove();
         if ($('.checkbox input:checked').length) {
@@ -62,14 +43,7 @@ $(document).ready(function(){
 
     $(".burger-menu").click(function() {
         $(".menu").slideToggle("slow");
-        //$(".burger_menu").hide();
-        //$(".burger_menu_close").show();
     });
-    //$(".burger_menu_close").click(function() {
-    //    $(".nav_mobile").slideToggle("slow");
-    //    $(".burger_menu").show();
-    //    $(".burger_menu_close").hide();
-    //});
 
 
     $("#filter_button").click(function() {
