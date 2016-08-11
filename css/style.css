@@ -76,7 +76,6 @@ body {
 	color: #333333;
 }
 
-
 header {
 	margin: 0 auto 0;
 	width: 100%;
@@ -141,6 +140,11 @@ input[type="text"], input[type="password"], textarea {
 
 input[type="radio"] {
 	-webkit-appearance: radio;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .top-header {
@@ -649,7 +653,6 @@ main {
 	margin-top: 12px;
 }
 
-
 /*accordion*/
 
 .filter-box .panel-group {
@@ -1008,20 +1011,20 @@ nav li a:hover span {
 
 /*mobile*/
 
-.button-mobile-filter{
+.button-mobile-filter {
 	width: 49%;
 	margin: 15px 0;
 }
 
-.button-mobile-filter-box{
+.button-mobile-filter-box {
 	display: none;
 }
 
-.button-filter-show{
+.button-filter-show {
 	float: right;
 }
 
-.button-filter-reset{
+.button-filter-reset {
 	float: left;
 }
 
@@ -1034,17 +1037,17 @@ nav li a:hover span {
 	font-size: 14px;
 }
 
-.button-filter-show input, .button-filter-open input,.button-sorting-open input {
+.button-filter-show input, .button-filter-open input, .button-sorting-open input {
 	background: #0085b2;
 }
 
-.button-filter-reset input{
+.button-filter-reset input {
 	background: #ffffff;
 	border: 1px solid #0085b2;
 	color: #0085b2;
 }
 
-.button-filter-open{
+.button-filter-open {
 	float: left;
 	margin-top: -20px;
 }
@@ -1054,10 +1057,9 @@ nav li a:hover span {
 	margin-top: -20px;
 }
 
-
 /*index page*/
 
-.background-parallax{
+.background-parallax {
 	position: relative;
 	background: url("../image/backgr-main.png") no-repeat center;
 	width: 100%;
@@ -1065,7 +1067,7 @@ nav li a:hover span {
 	text-align: center;
 }
 
-.wrapper-search{
+.wrapper-search {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1077,3 +1079,58 @@ nav li a:hover span {
 	background: rgba(88, 88, 185, 0.33);
 }
 
+/*tovar page*/
+
+.photogallery-wrapper {
+	width: 100%;
+}
+
+.large-photo-container {
+	float: left;
+	width: 45%;
+}
+
+.map-container {
+	float: right;
+	width: 55%;
+	background: grey;
+	height: 340px;
+}
+
+.small-photo-container{
+	margin-top: 20px;
+}
+
+.small-photo-container img{
+	float: left;
+	padding-right: 10px;
+}
+
+.small-photo-container a{
+	cursor: pointer;
+}
+
+.clear{
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+.star-reiting{
+	display: inline-block;
+	width: 18px;
+	height: 17px;
+	margin: 10px 0;
+}
+
+.star-yellow{
+	background: url("../image/star-yellow.png") no-repeat;
+}
+
+.star-pale{
+	background: url("../image/star-pale.png") no-repeat;
+}
+
+.star-white{
+	background: url("../image/star-white.png") no-repeat;
+}
