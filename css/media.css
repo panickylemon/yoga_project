@@ -231,7 +231,7 @@
 
 	.accurate-sorting-box .clearfix {
 		width: 389px;
-		margin: 20px auto;
+		margin: 10px auto 10px;
 	}
 
 	.accurate-sorting-box {
@@ -242,6 +242,13 @@
     }
 	.button-mobile-filter-box{
 		display: block;
+	}
+    .mobile-hidden{
+	    display: none;
+    }
+	.pagination > li > a {
+		padding: 1px 1px !important;
+		margin: 0 2px;
 	}
 }
 
