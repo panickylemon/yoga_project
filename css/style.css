@@ -1054,3 +1054,26 @@ nav li a:hover span {
 	margin-top: -20px;
 }
 
+
+/*index page*/
+
+.background-parallax{
+	position: relative;
+	background: url("../image/backgr-main.png") no-repeat center;
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+}
+
+.wrapper-search{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 200px;
+	width: 100%;
+	max-width: 400px;
+	margin: auto;
+	background: rgba(88, 88, 185, 0.33);
+}
+
