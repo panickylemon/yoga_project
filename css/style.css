@@ -515,10 +515,15 @@ footer a span {
 
 .lofo-footer {
 	margin-bottom: 12px;
+	float: left;
 }
 
 .lofo-footer img {
 	width: 145px;
+}
+
+.footer-wrapper-link{
+	margin-top: -25px;
 }
 
 .footer-first-block {
@@ -528,28 +533,30 @@ footer a span {
 
 .footer-second-block {
 	width: 140px;
-	margin: 42px auto 0;
+	margin: 0 auto 0;
 }
 
 .footer-third-block {
 	width: 95px;
-	margin: 42px auto 0;
+	margin: 0 auto 0;
 }
 
-.footer-fourth-block {
+.footer-social-network {
 	text-align: right;
+	float: right;
 }
 
-.footer-fourth-block a {
+.footer-social-network a {
 	padding-left: 10px;
 }
 
-.footer-fourth-block p {
+.footer-social-network p {
 	margin-top: 10px;
 }
 
 .footer-copyright {
-	margin-top: 65px;
+	margin-top: 57px;
+	padding-bottom: 35px;
 }
 
 /*main*/
@@ -940,7 +947,7 @@ input:disabled + label:hover {
 	color: #333;
 }
 
-.pagination>li:first-child a:hover, .pagination>li:last-child a:hover {
+.pagination>li:first-child a:hover, .pagination>li:last-child a:hover, .pagination>li:first-child a:focus, .pagination>li:last-child a:focus {
 	border-radius: 0;
 	border: none;
 }
