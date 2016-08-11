@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
     $(".submenu-place, .menu-place").mouseenter(function(){
         $('.submenu-place').removeClass('hidden-submenu-place');
         $('.pointer-menu').removeClass('hidden-arrow');
@@ -55,4 +55,6 @@ $(document).ready(function(){
         $(".sorting-wrapper").slideToggle("fast");
         $(".filter-box .panel-group").hide();
     });
+
+    $(".sticky").sticky({topSpacing:0});
 });

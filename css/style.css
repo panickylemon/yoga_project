@@ -1061,10 +1061,12 @@ nav li a:hover span {
 
 .background-parallax {
 	position: relative;
-	background: url("../image/backgr-main.png") no-repeat center;
+	background: url("../image/backgr-main.png") no-repeat;
 	width: 100%;
 	min-height: 500px;
 	text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .wrapper-search {
