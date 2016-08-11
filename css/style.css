@@ -1049,3 +1049,13 @@ nav li a:hover span {
 	border: 1px solid #0085b2;
 	color: #0085b2;
 }
+
+.button-filter-open{
+	float: left;
+	background: #0085b2;
+}
+
+.button-sorting-open{
+	float: right;
+	background: #0085b2;
+}

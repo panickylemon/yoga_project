@@ -187,6 +187,9 @@
 		min-width: 100%;
 		display: none;
 	}
+	.sorting-wrapper{
+		display: none;
+	}
 
 	.find-arrow {
 		display: none;
