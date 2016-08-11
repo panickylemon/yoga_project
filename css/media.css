@@ -109,6 +109,16 @@
 	.result-wrapper .col-sm-4 {
 		width: 50%;
 	}
+    .btn-country, .btn-region {
+	    margin-top: -100px;
+    }
+	.btn-city, .btn-metro{
+		margin-top: 80px;
+	}
+
+	.btn-country+.dropdown-menu, .btn-region+.dropdown-menu{
+		margin-top: -60px;
+	}
 }
 
 @media screen and (max-width: 850px) {
@@ -323,6 +333,32 @@
 		margin-left: 0;
 		margin-bottom: 20px;
 		text-align: center;
+	}
+	.btn-country {
+		margin-top: -222px;
+	}
+
+	.btn-region{
+		margin-top: -155px;
+	}
+
+	.btn-city{
+		margin-top: -5px;
+	}
+
+	.btn-metro{
+		margin-top: 90px;
+	}
+
+	.btn-region+.dropdown-menu{
+		margin-top: -114px;
+	}
+
+	.btn-country+.dropdown-menu {
+		margin-top: -181px;
+	}
+	.accurate-sorting-box .clearfix {
+		margin: 0 auto -20px;
 	}
 }
 
