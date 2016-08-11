@@ -73,12 +73,12 @@ $(document).ready(function(){
 
 
     $("#filter_button").click(function() {
-        $(".filter-box").slideToggle("fast");
-        $(".sorting_wrapper").hide();
+        $(".filter-box .panel-group").slideToggle("fast");
+        $(".sorting-wrapper").hide();
     });
 
     $("#sorting_button").click(function() {
-        $(".sorting_wrapper").slideToggle("fast");
-        $(".filter-box").hide();
+        $(".sorting-wrapper").slideToggle("fast");
+        $(".filter-box .panel-group").hide();
     });
 });
