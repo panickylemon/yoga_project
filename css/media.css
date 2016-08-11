@@ -240,6 +240,9 @@
 	.filter-box  .button-filter-box{
 	    display: none;
     }
+	.button-mobile-filter-box{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 649px) {

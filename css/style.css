@@ -1023,6 +1023,10 @@ nav li a:hover span {
 	margin: 15px 0;
 }
 
+.button-mobile-filter-box{
+	display: none;
+}
+
 .button-filter-show{
 	float: right;
 }
