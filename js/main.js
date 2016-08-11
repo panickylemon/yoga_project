@@ -48,12 +48,15 @@ $(document).ready(function(){
 
     function showFindArrow(elem) {
         $( ".find-arrow" ).remove();
-        $(elem).parent().after( '<div class="find-arrow">\
+        if ($('.checkbox input:checked').length) {
+            $(elem).parent().after( '<div class="find-arrow">\
 										<span class="quantity-found">Найдено: 295</span>\
 										<span class="link-show-results">\
 											<a>Показать</a>\
 										</span>\
 									</div>' );
+        }
+
     }
 
 
