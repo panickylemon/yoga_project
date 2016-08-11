@@ -185,10 +185,11 @@
 
 	.filter-box .panel-group {
 		min-width: 100%;
+		margin-top: 25px;
 		display: none;
 	}
 	.sorting-wrapper{
-		display: none;
+		/*display: none;*/
 	}
 
 	.find-arrow {
@@ -236,6 +237,9 @@
 	.accurate-sorting-box {
 		margin-top: 0;
 	}
+	.filter-box  .button-filter-box{
+	    display: none;
+    }
 }
 
 @media screen and (max-width: 649px) {
@@ -321,6 +325,11 @@
 	.register-box-mobile {
 		width: 50%;
 		padding: 15px 0;
+	}
+	.accurate-sorting-box .button-sorting {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
 	}
 
 }
