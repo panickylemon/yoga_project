@@ -70,4 +70,15 @@ $(document).ready(function(){
     //    $(".burger_menu").show();
     //    $(".burger_menu_close").hide();
     //});
+
+
+    $("#filter_button").click(function() {
+        $(".filter-box").slideToggle("fast");
+        $(".sorting_wrapper").hide();
+    });
+
+    $("#sorting_button").click(function() {
+        $(".sorting_wrapper").slideToggle("fast");
+        $(".filter-box").hide();
+    });
 });
