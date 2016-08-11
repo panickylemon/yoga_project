@@ -57,4 +57,11 @@ jQuery(document).ready(function($){
     });
 
     $(".sticky").sticky({topSpacing:0});
+
+    $(".thumb").click(function()
+    {
+        var image = $(this).find("img").data("image");
+        $(".main-image").attr("src", image);
+    });
+
 });
