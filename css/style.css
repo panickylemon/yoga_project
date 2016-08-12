@@ -61,6 +61,19 @@
 	src: url("../bootstrap/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../bootstrap/fonts/fontawesome-webfont.woff2") format("woff2"), url("../bootstrap/fonts/fontawesome-webfont.woff") format("woff"), url("../bootstrap/fonts/fontawesome-webfont.ttf") format("truetype"), url("../bootstrap/fonts/fontawesome-webfont.svg") format("svg");
 }
 
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+	position: relative;
+	min-height: 1px;
+}
+
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+
 html {
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -1105,19 +1118,7 @@ nav li a:hover span {
 	width: 52%;
 }
 
-/*.map-wrapper {*/
-	/*position: relative;*/
-	/*padding-bottom: 56.25%;*/
-	/*padding-top: 25px;*/
-	/*height: 0;*/
-/*}*/
-
 .map-container iframe {
-	/*position: absolute;*/
-	/*left: 0;*/
-	/*right: 0;*/
-	/*top: 0;*/
-	/*bottom: 0;*/
 	width: 100%;
 	height: 100%;
 }
@@ -1261,20 +1262,51 @@ nav li a:hover span {
 	margin-bottom: 60px;
 }
 
+.teachers-block h2{
+	margin-bottom: 35px;
+}
+
+.teachers-wrapper{
+	float: left;
+
+}
+
 .teachers-item {
-	border: 1px solid red;
+	border: 1px solid #ffffff;
 	max-width: 300px;
+	padding: 0 10px;
+	min-height: 345px;
+	margin: auto;
+	box-sizing: border-box;
 }
 
 .ellipse-teacher {
-	width: 180px;
+	width: 100%;
+	max-width: 180px;
+	min-width: 149px;
 	height: 240px;
 	margin: auto;
 	border: 2px solid #cdcdcd;
-	background: url("../image/prepod-1.png") no-repeat 50% 100%;
 	display: block;
 	-webkit-border-radius: 80px 80px 80px 80px / 80px 80px 80px 80px;
 	border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.teachers-1{
+	background: url("../image/prepod-1.png") no-repeat 50% 100%;
+}
+
+.teachers-2{
+	background: url("../image/prepod-2.png") no-repeat 50% 100%;
+}
+.teachers-3{
+	background: url("../image/prepod-3.png") no-repeat 50% 100%;
+}
+.teachers-4{
+	background: url("../image/prepod-4.png") no-repeat 50% 100%;
+}
+.teachers-5{
+	background: url("../image/prepod-3.png") no-repeat 50% 100%;
 }
 
 .name-teacher {
@@ -1290,9 +1322,34 @@ nav li a:hover span {
 	font-size: 12px;
 	font-style: italic;
 	max-width: 160px;
-	margin: auto;
+	margin: 10px auto;
 	text-align: center;
 }
+
+.give-feedback a{
+	text-decoration: none;
+	color: #0085b2;
+	border-bottom: 1px dashed #0085b2;
+	margin-left: 14px;
+}
+
+.review-block h2{
+	margin: 0;
+}
+
+
+.button-view-reviews{
+	width: 140px;
+	margin-left: 30px;
+}
+
+.give-feedback{
+	margin-top: 5px;
+	margin-left: 40px;
+}
+
+
+
 
 
 

@@ -5,6 +5,28 @@
 	}
 }
 
+
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+
 @media screen and (max-width: 1209px) {
 	.accurate-sorting-box .btn-group {
 		width: 23%;
@@ -327,6 +349,24 @@
 		margin: 0 auto 35px;
 		height: auto;
 	}
+
+    .map-container{
+	    display: none;
+    }
+    .large-photo-container{
+	    width: 100%;
+	    float: none;
+    }
+	.review-block h2{
+		width: 100%;
+	}
+	.button-view-reviews{
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.give-feedback{
+		margin-top: 25px;
+	}
 }
 
 @media screen and (max-width: 520px) {
@@ -429,6 +469,9 @@
 		margin: 0 0 20px;
 		width: 100%;
 	}
+	.teachers-wrapper{
+		width: 100%;
+	}
 }
 
 
@@ -456,3 +499,7 @@
 		width: 100%;
 	}
 }
+
+
+
+
