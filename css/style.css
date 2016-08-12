@@ -1408,6 +1408,10 @@ a.button-view-full{
 	border-bottom: 1px dashed #0085b2;
 }
 
+.similar-products-block{
+	margin-bottom: 40px;
+}
+
 .similar-products-block .result-item{
 	float: none;
 }
