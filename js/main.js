@@ -69,4 +69,19 @@ jQuery(document).ready(function($){
         var h = $(".large-photo-container").height();
         $("#map-iframe").height(h);
     })
+
+
+
+
+    $(".small-review").each(function () {
+        text = $(this).text();
+        if (text.length > 240) {
+            $(this).html(text.substr(0, 240) + '<span class="button-view-full">' + text.substr(240) + '</span><a' +
+                ' class="button-view-full" href="#">Посмотреть целиком</a>');
+        }
+    });
+    $(".small-review > a.button-view-full").click(function (e) {
+        e.preventDefault(); //prevent '#' from being added to the url
+        $(this).prev('span.button-view-full').fadeToggle(500);
+    });
 });

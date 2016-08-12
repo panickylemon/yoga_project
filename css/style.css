@@ -1346,8 +1346,8 @@ nav li a:hover span {
 }
 
 .review-item {
-	/*border: 1px solid red;*/
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .title-review {
@@ -1393,22 +1393,21 @@ nav li a:hover span {
 }
 
 .content-review {
-	width: 95%;
+	width: 96%;
 	position: relative;
 	padding-left: 100px;
 	top: 0;
 }
 
-.button-view-full {
-	float: right;
-	margin-top: -15px;
+
+span.button-view-full {
+	display:none
 }
 
-.button-view-full a {
+a.button-view-full{
+	float: right;
+	margin-top: 15px;
 	text-decoration: none;
 	color: #0085b2;
 	border-bottom: 1px dashed #0085b2;
 }
-
-
-
