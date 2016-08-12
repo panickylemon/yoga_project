@@ -119,4 +119,40 @@ jQuery(document).ready(function($){
       }
 
     });
+
+    $('#form-change').submit(function(){
+      var place = $("#namePlace").val();
+      var is_valid = true;
+      if (!place){
+          $("#namePlace").addClass('form-error');
+          is_valid = false;
+      } else {
+          $("#namePlace").removeClass('form-error');
+      }
+      var name = $("#inputNameSurname").val();
+      if (!name){
+          $("#inputNameSurname").addClass('form-error');
+          is_valid = false;
+      } else {
+          $("#inputNameSurname").removeClass('form-error');
+      }
+      var email = $("#emailChangeInput").val();
+      if (!email || !isEmail(email)){
+          $("#emailChangeInput").addClass('form-error');
+          is_valid = false;
+      } else {
+          $("#emailChangeInput").removeClass('form-error');
+      }
+      var changes = $("#inputChanges").val();
+      if (!changes){
+          $("#inputChanges").addClass('form-error');
+          is_valid = false;
+      } else {
+          $("#inputChanges").removeClass('form-error');
+      }
+      if (!is_valid) {
+          return false;
+      }
+
+    });
 });
