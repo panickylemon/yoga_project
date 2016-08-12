@@ -1,10 +1,6 @@
 jQuery(document).ready(function($){
     $('input, textarea').placeholder();
 
-    $("#nameInput").inputmask("Regex");
-    $("#emailInput").inputmask("Regex");
-    $("#phoneInput").inputmask("Regex");
-
     $(".submenu-place, .menu-place").mouseenter(function(){
         $('.submenu-place').removeClass('hidden-submenu-place');
         $('.pointer-menu').removeClass('hidden-arrow');
@@ -74,10 +70,7 @@ jQuery(document).ready(function($){
     $(window).resize(function(){
         var h = $(".large-photo-container").height();
         $("#map-iframe").height(h);
-    })
-
-
-
+    });
 
     $(".small-review").each(function () {
         text = $(this).text();
@@ -89,5 +82,32 @@ jQuery(document).ready(function($){
     $(".small-review > a.button-view-full").click(function (e) {
         e.preventDefault(); //prevent '#' from being added to the url
         $(this).prev('span.button-view-full').fadeToggle(500);
+    });
+
+    function isEmail(email) {
+      var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      return regex.test(email);
+    }
+
+    $("#phoneInput").inputmask("+7 999 9999999");
+    $("#nameInput").inputmask("Regex");
+    $('#form-review').submit(function(){
+      var message = $("#inputMessage").val();
+      var is_valid = true;
+      if (!message){
+          $("#inputMessage").addClass('form-error');
+          is_valid = false;
+      }
+      var name = $("#nameInput").val();
+      if (!name){
+          $("#nameInput").addClass('form-error');
+          is_valid = false;
+      }
+      var email = $("#emailInput").val();
+      if (!email || !isEmail(email)){
+          $("#emailInput").addClass('form-error');
+          is_valid = false;
+      }
+      return false;
     });
 });
