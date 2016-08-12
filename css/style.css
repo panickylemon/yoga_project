@@ -98,6 +98,10 @@ header {
 	box-sizing: border-box;
 }
 
+.relative{
+	position: relative;
+}
+
 .left {
 	float: left;
 }

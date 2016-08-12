@@ -335,6 +335,14 @@
 	.modal-dialog {
 		margin: 10px auto;
 	}
+
+    .sticky-wrapper{
+	    position: absolute;
+	    background: #ffffff;
+	    width: 100%;
+	    top: 0;
+	    margin-top: 67px;
+    }
 }
 
 
