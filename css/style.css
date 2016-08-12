@@ -1182,6 +1182,7 @@ nav li a:hover span {
 .button-base input:hover {
 	background: #00befe;
 	color: #ffffff;
+	border: none;
 }
 
 .back-button {
