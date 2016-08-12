@@ -108,6 +108,9 @@ jQuery(document).ready(function($){
           $("#emailInput").addClass('form-error');
           is_valid = false;
       }
-      return false;
+      if (!is_valid) {
+          return false;
+      }
+
     });
 });
