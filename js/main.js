@@ -58,7 +58,7 @@ jQuery(document).ready(function($){
         $(".filter-box .panel-group").hide();
     });
 
-    $(".sticky").sticky({topSpacing:0});
+    $(".sticky").sticky({topSpacing:0, zIndex:999999});
 
     $(".thumb").click(function() {
         var image = $(this).find("img").data("image");
