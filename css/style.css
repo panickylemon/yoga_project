@@ -1074,29 +1074,7 @@ nav li a:hover span {
 	margin-top: -20px;
 }
 
-/*index page*/
 
-.background-parallax {
-	position: relative;
-	background: url("../image/backgr-main.png") no-repeat;
-	width: 100%;
-	min-height: 500px;
-	text-align: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-.wrapper-search {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	height: 200px;
-	width: 100%;
-	max-width: 400px;
-	margin: auto;
-	background: rgba(88, 88, 185, 0.33);
-}
 
 /*product page*/
 
@@ -1542,4 +1520,56 @@ textarea.input-review{
 
 .change-form-wrapper .dropdown-base {
 	font-weight: normal;
+}
+
+
+/*index page*/
+
+.background-parallax {
+	position: relative;
+	background: url("../image/backgr-main.png") no-repeat;
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.wrapper-search {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 200px;
+	width: 100%;
+	max-width: 666px;
+	margin: auto;
+	padding: 0 5px;
+	background: rgba(88, 88, 185, 0.33);
+}
+
+.search-button input{
+	background: url("../image/search-button.png") no-repeat;
+	color: white;
+	width: 225px;
+	height: 58px;
+	font-size: 24px;
+	border: none;
+	outline: none;
+}
+
+.search-button{
+	max-width: 225px;
+	height: 58px;
+	margin: auto;
+}
+
+.input-search{
+	width: 100%;
+	max-width: 666px;
+	outline: none;
+	height: 45px;
+	border: none;
+	font-size: 16px;
+
 }
