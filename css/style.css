@@ -1561,7 +1561,7 @@ textarea.input-review{
 .search-button{
 	max-width: 225px;
 	height: 58px;
-	margin: auto;
+	margin: 10px auto 20px;
 }
 
 .input-search{
@@ -1573,3 +1573,16 @@ textarea.input-review{
 	font-size: 16px;
 
 }
+
+.inputbox_wrap{
+	float: left;
+	width: 100%;
+}
+
+.icon_search{
+	margin-top: 12px;
+	position: absolute;
+	right: 25px;
+	outline: none;
+}
+
