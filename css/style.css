@@ -645,6 +645,10 @@ main {
 	margin-left: 1%;
 }
 
+.button-sorting input:hover{
+	background: #00befe;
+}
+
 .button-filter-box {
 	margin: 24px 0 150px;
 }
