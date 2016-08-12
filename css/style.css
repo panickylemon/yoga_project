@@ -1521,7 +1521,6 @@ textarea.input-review{
 	margin-bottom: 15px;
 }
 
-/*.modal-open .modal {*/
-	/*overflow-x: hidden;*/
-	 /*overflow-y: hidden;*/
-/*}*/
+.form-error{
+	border: 2px solid #00befe;
+}

@@ -1,6 +1,10 @@
 jQuery(document).ready(function($){
     $('input, textarea').placeholder();
 
+    $("#nameInput").inputmask("Regex");
+    $("#emailInput").inputmask("Regex");
+    $("#phoneInput").inputmask("Regex");
+
     $(".submenu-place, .menu-place").mouseenter(function(){
         $('.submenu-place').removeClass('hidden-submenu-place');
         $('.pointer-menu').removeClass('hidden-arrow');
