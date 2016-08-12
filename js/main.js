@@ -1,4 +1,6 @@
 jQuery(document).ready(function($){
+    $('input, textarea').placeholder();
+
     $(".submenu-place, .menu-place").mouseenter(function(){
         $('.submenu-place').removeClass('hidden-submenu-place');
         $('.pointer-menu').removeClass('hidden-arrow');

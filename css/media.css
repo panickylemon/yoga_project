@@ -332,6 +332,9 @@
 	.review-item {
 		margin-bottom: 20px;
 	}
+	.modal-dialog {
+		margin: 10px auto;
+	}
 }
 
 
@@ -468,6 +471,19 @@
 
 	.accurate-sorting-box .clearfix {
 		margin: 0 auto -20px;
+	}
+    .button-send{
+	    float: none;
+	    margin-top: 20px;
+    }
+	.modal-content {
+		padding: 10px 16px;
+	}
+	.close-form {
+		margin-right: 0;
+	}
+	textarea.input-review{
+		height: 150px;
 	}
 }
 
