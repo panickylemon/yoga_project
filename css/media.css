@@ -329,7 +329,9 @@
 	.other-property {
 		margin-top: 10px;
 	}
-
+	.review-item {
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -474,6 +476,13 @@
 	}
 }
 
+@media screen and (max-width: 380px) {
+	.give-feedback {
+		margin-top: 20px;
+		margin-left: 0;
+		width: 100%;
+	}
+}
 
 @media screen and (max-width: 332px) {
 	.register-box-mobile a:last-child p {

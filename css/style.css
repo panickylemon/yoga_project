@@ -1262,11 +1262,11 @@ nav li a:hover span {
 	margin-bottom: 60px;
 }
 
-.teachers-block h2{
+.teachers-block h2 {
 	margin-bottom: 35px;
 }
 
-.teachers-wrapper{
+.teachers-wrapper {
 	float: left;
 
 }
@@ -1292,20 +1292,23 @@ nav li a:hover span {
 	border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 
-.teachers-1{
+.teachers-1 {
 	background: url("../image/prepod-1.png") no-repeat 50% 100%;
 }
 
-.teachers-2{
+.teachers-2 {
 	background: url("../image/prepod-2.png") no-repeat 50% 100%;
 }
-.teachers-3{
+
+.teachers-3 {
 	background: url("../image/prepod-3.png") no-repeat 50% 100%;
 }
-.teachers-4{
+
+.teachers-4 {
 	background: url("../image/prepod-4.png") no-repeat 50% 100%;
 }
-.teachers-5{
+
+.teachers-5 {
 	background: url("../image/prepod-3.png") no-repeat 50% 100%;
 }
 
@@ -1326,30 +1329,86 @@ nav li a:hover span {
 	text-align: center;
 }
 
-.give-feedback a{
+.give-feedback a {
 	text-decoration: none;
 	color: #0085b2;
 	border-bottom: 1px dashed #0085b2;
 	margin-left: 14px;
 }
 
-.review-block h2{
+.review-block {
+	margin-bottom: 40px;
+}
+
+.review-block h2 {
+	margin: 0;
+	float: left;
+}
+
+.review-item {
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+.title-review {
+	margin-bottom: 40px;
+}
+
+.button-view-reviews {
+	width: 140px;
+	margin-left: 30px;
+	float: left;
+}
+
+.give-feedback {
+	margin-top: 5px;
+	margin-left: 40px;
+	float: left;
+}
+
+.date-review {
+	font-size: 12px;
+	font-style: italic;
 	margin: 0;
 }
 
-
-.button-view-reviews{
-	width: 140px;
-	margin-left: 30px;
+.name-review {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 5px;
 }
 
-.give-feedback{
-	margin-top: 5px;
-	margin-left: 40px;
+.text-review {
+	font-size: 12px;
 }
 
+.avatar-review {
+	width: 90px;
+	position: absolute;
+}
 
+.avatar-review img {
+	width: 100%;
+	max-width: 90px;
+}
 
+.content-review {
+	width: 95%;
+	position: relative;
+	padding-left: 100px;
+	top: 0;
+}
+
+.button-view-full {
+	float: right;
+	margin-top: -15px;
+}
+
+.button-view-full a {
+	text-decoration: none;
+	color: #0085b2;
+	border-bottom: 1px dashed #0085b2;
+}
 
 
 
