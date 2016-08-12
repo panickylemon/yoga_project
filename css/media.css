@@ -369,6 +369,13 @@
 	.give-feedback{
 		margin-top: 25px;
 	}
+    .similar-products-block h2{
+	    margin-bottom: 20px;
+    }
+	.button-similar-products {
+		 margin-left: 0;
+		 float: none;
+	}
 }
 
 @media screen and (max-width: 520px) {
