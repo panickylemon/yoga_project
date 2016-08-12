@@ -71,6 +71,13 @@
 	.quantity-found {
 		margin-left: 27px;
 	}
+
+	.contacts-product-box .address-block, .contacts-product-box .phone-block{
+		width: 100%;
+		float: none;
+	}
+
+
 }
 
 @media screen and (max-width: 900px) {
@@ -275,7 +282,21 @@
 		padding: 1px 1px !important;
 		margin: 0 2px;
 	}
+
+	.contacts-product-box, .description-product-box{
+		float: none;
+		width: 100%;
+	}
+
+	.description-product-box{
+		margin-top: 15px;
+	}
+	.other-property {
+		margin-top: 10px;
+	}
+
 }
+
 
 @media screen and (max-width: 649px) {
 	.result-wrapper .col-sm-4 {

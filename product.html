@@ -15,7 +15,7 @@
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.sticky.js"></script>
 	<script src="js/main.js"></script>
 
 </head>
@@ -122,11 +122,20 @@
 		</div>
 
 	</header>
-	<main class="clearfix">
+	<main class="clearfix page-product">
 		<div class="container-block">
-			<h1>
-				Ресторан Au Lac Gourmet Vegetarian
-			</h1>
+			<div class="clearfix">
+				<h1>
+					Ресторан Au Lac Gourmet Vegetarian
+				</h1>
+
+				<div class="button-base back-button">
+					<input type="submit" value="Вернуться к поиску">
+				</div>
+				<p class="change-link">
+					<span>Вы хозяин? </span><span>Хотите </span><span><a href="#">внести изменения?</a></span>
+				</p>
+			</div>
 			<div class="stars-wrapper">
 				<span class="star-reiting star-yellow"></span>
 				<span class="star-reiting star-yellow"></span>
@@ -134,18 +143,23 @@
 				<span class="star-reiting star-pale"></span>
 				<span class="star-reiting star-white"></span>
 			</div>
-
 			<div class="photogallery-wrapper clearfix">
 				<div class="clearfix>">
 					<div class="large-photo-container">
 						<img class="main-image" src="image/gallery-large-photo-1.png">
 					</div>
 					<div class="map-container">
+						<div class="map-wrapper">
+							<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4694.448077654428!2d-117.95661805778865!3d33.696628161378406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2737524dc675%3A0x476f2b24435e6ea8!2zQnJvb2todXJzdCBTdCwgRm91bnRhaW4gVmFsbGV5LCBDQSA5MjcwOCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1470961557987"
+									frameborder="0" style="border:0"
+									allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 				<div class="clear"></div>
 				<div class="small-photo-container clearfix">
-					<a class="thumb"><img src="image/gallery-small-2.png" data-image="image/gallery-small-2.png"></a>
+					<a class="thumb"><img src="image/gallery-small-1.png" data-image="image/gallery-large-photo-1.png"></a>
 					<a class="thumb"><img src="image/gallery-small-3.png" data-image="image/gallery-small-3.png"></a>
 					<a class="thumb"><img src="image/gallery-small-4.png" data-image="image/gallery-small-4.png"></a>
 					<a class="thumb"><img src="image/gallery-small-6.png" data-image="image/gallery-small-6.png"></a>
@@ -153,8 +167,61 @@
 					<a class="thumb"><img src="image/gallery-small-3.png" data-image="image/gallery-small-3.png"></a>
 					<a class="thumb"><img src="image/gallery-small-4.png" data-image="image/gallery-small-4.png"></a>
 					<a class="thumb"><img src="image/gallery-small-6.png" data-image="image/gallery-small-6.png"></a>
+					<a class="thumb"><img src="image/gallery-small-1.png" data-image="image/gallery-large-photo-1.png"></a>
+					<a class="thumb"><img src="image/gallery-small-3.png" data-image="image/gallery-small-3.png"></a>
+					<a class="thumb"><img src="image/gallery-small-4.png" data-image="image/gallery-small-4.png"></a>
+					<a class="thumb"><img src="image/gallery-small-6.png" data-image="image/gallery-small-6.png"></a>
+					<a class="thumb"><img src="image/gallery-small-2.png" data-image="image/gallery-small-2.png"></a>
+					<a class="thumb"><img src="image/gallery-small-3.png" data-image="image/gallery-small-3.png"></a>
+					<a class="thumb"><img src="image/gallery-small-4.png" data-image="image/gallery-small-4.png"></a>
+					<a class="thumb"><img src="image/gallery-small-6.png" data-image="image/gallery-small-6.png"></a>
+					<a class="thumb"><img src="image/gallery-small-1.png" data-image="image/gallery-large-photo-1.png"></a>
 				</div>
 			</div>
+			<div class="text-block-product clearfix">
+				<div class="contacts-product-box">
+					<div class="clearfix">
+						<div class="address-block">
+							<p><span class="country">Россия</span><span> / </span><span class="city">Москва</span></p>
+
+							<p><span class="street">Воздвиженка, 7/6с1, 1 этаж</span></p>
+
+							<p><span class="metro-station">Станция метро: </span><span class="name-metro-station">Арбатская
+						</span></p>
+
+							<p><span class="email">www.yogastudio.ru</span></p>
+						</div>
+						<div class="phone-block">
+							<p class="phone-number">+7 915 030-02-46</p>
+
+							<p class="phone-number">+7 495 245-57-12</p>
+						</div>
+					</div>
+					<div class="other-property">
+						<p><span class="property-name">Средний чек: </span><span class="average-check">от 350 до 500
+							рублей</span></p>
+
+						<p><span class="property-name">Время работы: </span><span class="working-hours">пн-пт: 10:00 - 22:00; сб: 11:00 - 17:00; вс: 12:00 - 17:00</span>
+						</p>
+
+						<p><span class="property-name">Название параметра: </span><span>значение параметра</span></p>
+
+						<p><span class="property-name">Название параметра: </span><span>значение параметра</span></p>
+						<p>Параметр без названия</p>
+					</div>
+				</div>
+				<div class="description-product-box">
+					<p> — это небольшой уютный ресторанчик вегетарианской кухни в Канберре. Несмотря на то, что здесь
+						отсутствуют мясные и рыбные блюда, посетителей всегда очень много, поэтому надо обязательно
+						предварительно бронировать столик.
+						Сюда приходят вегетарианцы и не только. Здесь можно найти огромное разнообразие блюд с имитацией
+						мяса, которые иногда сложно отличить от оригинальных. Особенно вкусны здесь блюда с тофу,
+						которых предлагается великое множество.
+						Порции очень большие для таких невысоких цен. Обслуживание быстрое и качественное. Посетив этот
+						ресторан однажды, клиенты часто возвращаются сюда снова и снова.</p>
+				</div>
+			</div>
+
 		</div>
 	</main>
 </div>
