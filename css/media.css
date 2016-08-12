@@ -27,6 +27,7 @@
 	.result-wrapper {
 		width: 97%;
 	}
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -44,6 +45,18 @@
 
 	.panel-body .left:nth-child(2) {
 		margin-left: 10%;
+	}
+
+    .box-button-link{
+	    width: 100%;
+	    margin-bottom: 20px;
+    }
+	.page-product h1{
+		width: 100%;
+	}
+	.back-button {
+		float: left;
+		margin-right: 0;
 	}
 }
 
@@ -408,6 +421,16 @@
 		margin: 0 auto -20px;
 	}
 }
+
+
+@media screen and (max-width: 500px) {
+	.change-link {
+		float: left;
+		margin: 0 0 20px;
+		width: 100%;
+	}
+}
+
 
 @media screen and (max-width: 332px) {
 	.register-box-mobile a:last-child p {
