@@ -58,10 +58,15 @@ jQuery(document).ready(function($){
 
     $(".sticky").sticky({topSpacing:0});
 
-    $(".thumb").click(function()
-    {
+    $(".thumb").click(function() {
         var image = $(this).find("img").data("image");
         $(".main-image").attr("src", image);
     });
 
+    var h = $(".large-photo-container").height();
+    $("#map-iframe").height(h);
+    $(window).resize(function(){
+        var h = $(".large-photo-container").height();
+        $("#map-iframe").height(h);
+    })
 });
