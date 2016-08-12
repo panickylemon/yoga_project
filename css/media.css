@@ -338,10 +338,13 @@
 
     .sticky-wrapper{
 	    position: absolute;
-	    background: #ffffff;
 	    width: 100%;
 	    top: 0;
 	    margin-top: 67px;
+    }
+
+    .sticky{
+	    background: #ffffff;
     }
 }
 
