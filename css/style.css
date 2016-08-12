@@ -147,6 +147,10 @@ h1 {
 	font-weight: 600;
 }
 
+h2 {
+	font-weight: 600;
+}
+
 .top-header {
 	margin: 32px auto 40px;
 	-webkit-box-sizing: border-box;
@@ -1163,7 +1167,7 @@ nav li a:hover span {
 	width: 55%;
 }
 
-.box-button-link{
+.box-button-link {
 	float: right;
 	width: 43%;
 }
@@ -1183,73 +1187,112 @@ nav li a:hover span {
 	color: #ffffff;
 }
 
-.back-button{
+.back-button {
 	width: 165px;
 	float: left;
 }
 
-.change-link{
+.change-link {
 	float: right;
 	margin: 12px 0 0;
 }
 
-.change-link span:first-child{
-	 color: #bf133f;
-	 font-weight: bold;
- }
+.change-link span:first-child {
+	color: #bf133f;
+	font-weight: bold;
+}
 
-.change-link span a{
+.change-link span a {
 	color: #0085b2;
 	text-decoration: none;
 	cursor: pointer;
 	border-bottom: 1px dashed #0085b2;
 }
 
-.text-block-product{
+.text-block-product {
 	width: 100%;
-	margin-top: 45px;
-	margin-bottom: 50px;
+	margin-top: 25px;
+	margin-bottom: 35px;
 }
 
-.contacts-product-box{
+.contacts-product-box {
 	float: left;
 	width: 47%;
 }
 
-.description-product-box{
+.description-product-box {
 	float: right;
 	width: 51%;
 }
 
-.contacts-product-box .address-block{
+.contacts-product-box .address-block {
 	width: 65%;
 	float: left;
 }
 
-.contacts-product-box .phone-block{
+.contacts-product-box .phone-block {
 	width: 34%;
 	float: right;
 }
 
-.address-block .metro-station, .other-property .property-name{
+.address-block .metro-station, .other-property .property-name {
 	font-style: italic;
 }
 
-.address-block .country, .address-block .street, .address-block .name-metro-station, .other-property .average-check, .other-property .working-hours{
+.address-block .country, .address-block .street, .address-block .name-metro-station, .other-property .average-check, .other-property .working-hours {
 	font-weight: 600;
 }
 
-.address-block .phone-number{
+.address-block .phone-number {
 	font-size: 16px;
 }
 
-.address-block .email{
+.address-block .email {
 	color: #0085b2;
 	border-bottom: 1px solid #0085b2;
 }
 
-.other-property{
+.other-property {
 	margin-top: 15px;
 }
+
+.teachers-block {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.teachers-item {
+	border: 1px solid red;
+	max-width: 300px;
+}
+
+.ellipse-teacher {
+	width: 180px;
+	height: 240px;
+	margin: auto;
+	border: 2px solid #cdcdcd;
+	background: url("../image/prepod-1.png") no-repeat 50% 100%;
+	display: block;
+	-webkit-border-radius: 80px 80px 80px 80px / 80px 80px 80px 80px;
+	border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.name-teacher {
+	font-size: 16px;
+	font-weight: 600;
+	max-width: 160px;
+	text-align: center;
+	margin: 10px auto 0;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.description-teacher {
+	font-size: 12px;
+	font-style: italic;
+	max-width: 160px;
+	margin: auto;
+	text-align: center;
+}
+
 
 
