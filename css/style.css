@@ -1413,9 +1413,11 @@ a.button-view-full{
 }
 
 
-/*review form*/
+/*form*/
 
-
+.modal.in .modal-dialog {
+	margin-top: 20px;
+}
 
 .modal-dialog{
 	z-index: 2000;
@@ -1423,9 +1425,6 @@ a.button-view-full{
 	margin: auto;
 }
 
-/*.modal.in .modal-dialog {*/
-	/*margin-right: -7px;*/
-/*}*/
 
 .close-form{
 	width: 30px;
@@ -1446,7 +1445,7 @@ a.button-view-full{
 	padding: 26px 46px;
 }
 
-.title-form-review{
+.title-form-review, .title-form-change{
 	font-size: 30px;
 	font-weight: 600;
 }
@@ -1523,4 +1522,15 @@ textarea.input-review{
 
 .form-error{
 	border: 2px solid #00befe;
+}
+
+
+.change-form-wrapper .btn-group {
+	width: 100%;
+	max-width: 260px;
+	margin-bottom: 20px;
+}
+
+.change-form-wrapper .dropdown-base {
+	font-weight: normal;
 }
