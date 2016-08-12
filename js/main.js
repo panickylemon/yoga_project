@@ -81,6 +81,7 @@ jQuery(document).ready(function($){
     });
     $(".small-review > a.button-view-full").click(function (e) {
         e.preventDefault(); //prevent '#' from being added to the url
+        $(this).fadeToggle(500);
         $(this).prev('span.button-view-full').fadeToggle(500);
     });
 
@@ -155,4 +156,16 @@ jQuery(document).ready(function($){
       }
 
     });
+
+    $("#owl-example").owlCarousel({
+        navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+    });
+
+    $(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 });
