@@ -5,7 +5,6 @@
 	}
 }
 
-
 @media (min-width: 768px) {
 	.col-sm-1-5 {
 		width: 20%;
@@ -69,13 +68,15 @@
 		margin-left: 10%;
 	}
 
-    .box-button-link{
-	    width: 100%;
-	    margin-bottom: 20px;
-    }
-	.page-product h1{
+	.box-button-link {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.page-product h1 {
 		width: 100%;
 	}
+
 	.back-button {
 		float: left;
 		margin-right: 0;
@@ -89,9 +90,10 @@
 }
 
 @media (max-width: 992px) {
-	.text-important-event, .date-important-event  {
+	.text-important-event, .date-important-event {
 		font-size: 14px;
 	}
+
 	.place-important-event {
 		font-size: 12px;
 	}
@@ -116,18 +118,21 @@
 		margin-left: 27px;
 	}
 
-	.contacts-product-box .address-block, .contacts-product-box .phone-block{
+	.contacts-product-box .address-block, .contacts-product-box .phone-block {
 		width: 100%;
 		float: none;
 	}
-	.box-info{
+
+	.box-info {
 		bottom: 10px;
 		padding: 10px 5px;
 	}
-	.name-travel{
+
+	.name-travel, .name-mothers, .name-child {
 		font-size: 16px;
 	}
-	.box-country{
+
+	.box-country {
 		font-size: 24px;
 	}
 }
@@ -184,6 +189,7 @@
 	.accurate-sorting-box {
 		margin-top: 15px;
 	}
+
 	.sticky {
 		border-bottom: 1px solid #dddede;
 	}
@@ -217,16 +223,19 @@
 		width: 94%;
 	}
 
-	.name-travel{
+	.name-travel {
 		font-size: 14px;
 	}
-	.box-country{
+
+	.box-country {
 		font-size: 20px;
 	}
-	.place-travel{
+
+	.place-travel {
 		font-size: 12px;
 	}
-	.date-travel{
+
+	.date-travel {
 		font-size: 10px;
 	}
 }
@@ -351,63 +360,75 @@
 		margin: 0 2px;
 	}
 
-	.contacts-product-box, .description-product-box{
+	.contacts-product-box, .description-product-box {
 		float: none;
 		width: 100%;
 	}
 
-	.description-product-box{
+	.description-product-box {
 		margin-top: 15px;
 	}
+
 	.other-property {
 		margin-top: 10px;
 	}
+
 	.review-item {
 		margin-bottom: 20px;
 	}
+
 	.modal-dialog {
 		margin: 10px auto;
 	}
 
-    .sticky-wrapper{
-	    position: absolute;
-	    width: 100%;
-	    top: 0;
-	    margin-top: 67px;
-    }
-	.menu-place a span{
+	.sticky-wrapper {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		margin-top: 67px;
+	}
+
+	.menu-place a span {
 		border-bottom: none !important;
 	}
-    .important-event-box img {
-	    width: 100%;
-	    float: none;
-	    margin: auto;
-    }
 
-	.index-page .pagination-wrapper{
+	.important-event-box img {
+		width: 100%;
+		float: none;
+		margin: auto;
+	}
+
+	.index-page .pagination-wrapper {
 		margin-top: 25px;
 		padding-bottom: 15px;
 	}
 
-	.box-info{
+	.box-info {
 		bottom: 40px;
 		padding: 15px 5px;
 	}
-	.name-travel{
+
+	.name-travel {
 		font-size: 18px;
 	}
-	.box-country{
+
+	.box-country {
 		font-size: 30px;
 	}
-	.place-travel{
+
+	.place-travel {
 		font-size: 14px;
 	}
-	.date-travel{
+
+	.date-travel {
 		font-size: 12px;
 	}
 
-}
+	/*.mothers-wrapper .col-xs-3 {*/
+		/*width: 50%;*/
+	/*}*/
 
+}
 
 @media screen and (max-width: 649px) {
 	.result-wrapper .col-sm-4 {
@@ -426,29 +447,35 @@
 		height: auto;
 	}
 
-    .map-container{
-	    display: none;
-    }
-    .large-photo-container{
-	    width: 100%;
-	    float: none;
-    }
-	.review-block h2{
+	.map-container {
+		display: none;
+	}
+
+	.large-photo-container {
+		width: 100%;
+		float: none;
+	}
+
+	.review-block h2 {
 		width: 100%;
 	}
-	.button-view-reviews{
+
+	.button-view-reviews {
 		margin-left: 0;
 		margin-top: 20px;
 	}
-	.give-feedback{
+
+	.give-feedback {
 		margin-top: 25px;
 	}
-    .similar-products-block h2{
-	    margin-bottom: 20px;
-    }
+
+	.similar-products-block h2 {
+		margin-bottom: 20px;
+	}
+
 	.button-similar-products {
-		 margin-left: 0;
-		 float: none;
+		margin-left: 0;
+		float: none;
 	}
 }
 
@@ -543,31 +570,37 @@
 	.accurate-sorting-box .clearfix {
 		margin: 0 auto -20px;
 	}
-    .button-send{
-	    float: none;
-	    margin-top: 20px;
-    }
+
+	.button-send {
+		float: none;
+		margin-top: 20px;
+	}
+
 	.modal-content {
 		padding: 10px 16px;
 	}
+
 	.close-form {
 		margin-right: 0;
 	}
-	textarea.input-review{
+
+	textarea.input-review {
 		height: 150px;
 	}
-	.box-info{
+
+	.box-info {
 		bottom: 10px;
 		padding: 10px 5px;
 	}
-	.name-travel{
+
+	.name-travel {
 		font-size: 16px;
 	}
-	.box-country{
+
+	.box-country {
 		font-size: 24px;
 	}
 }
-
 
 @media screen and (max-width: 500px) {
 	.change-link {
@@ -575,37 +608,42 @@
 		margin: 0 0 20px;
 		width: 100%;
 	}
-	.teachers-wrapper{
+
+	.teachers-wrapper {
 		width: 100%;
 	}
+
 	.button-subtitle {
 		float: none;
 		width: 100%;
 		margin: 20px 0 0;
 	}
-	.subtitle-index-page h2{
+
+	.subtitle-index-page h2 {
 		float: none;
 	}
 }
 
-
-
-
 @media screen and (max-width: 420px) {
-	.name-travel{
+	.name-travel {
 		font-size: 14px;
 	}
-	.box-country{
+
+	.box-country {
 		font-size: 20px;
 	}
-	.place-travel{
+
+	.place-travel {
 		font-size: 12px;
 	}
-	.date-travel{
+
+	.date-travel {
 		font-size: 10px;
 	}
+	.box-info-mothers, .box-info-child{
+		bottom: 20px;
+	}
 }
-
 
 @media screen and (max-width: 380px) {
 	.give-feedback {
@@ -614,34 +652,49 @@
 		width: 100%;
 	}
 
-	.box-info{
+	.box-info {
 		height: 100%;
 		bottom: 0;
 		padding: 10px 1px;
+		background: rgba(0, 0, 0, 0.5);
 	}
-	.shadow-image:hover img{
+
+	.shadow-image:hover img {
 		opacity: 0.8;
 	}
 
-	.shadow-image:hover .box-info{
+	.shadow-image:hover .box-info {
+		 background: rgba(0, 0, 0, 0.5);
+	 }
+
+	.shadow-image:hover .box-info-mothers, .shadow-image:hover .box-info-child {
 		background: rgba(255, 255, 255, 0.6);
 	}
 
-	.shadow-image:hover .name-travel{
-		color: #333333;
+	.name-travel, .date-travel, .place-travel{
+		color: #ffffff;
 	}
 
-    .box-info div{
-	    position: absolute;
-	    bottom: 10px;
-	    width: 100%;
-    }
-    .box-country{
-	    color: #333;
-	    z-index: 100;
-	    font-size: 18px;
-	    top:10px;
-    }
+	.shadow-image:hover .name-mothers, .shadow-image:hover .name-child {
+		 color: #333;
+	 }
+
+	.shadow-image:hover .name-travel {
+		color: #333;
+	}
+
+	.box-info div {
+		position: absolute;
+		bottom: 10px;
+		width: 100%;
+	}
+
+	.box-country {
+		color: #ffffff;
+		z-index: 100;
+		font-size: 18px;
+		top: 10px;
+	}
 }
 
 @media screen and (max-width: 332px) {
