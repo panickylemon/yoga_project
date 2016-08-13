@@ -424,10 +424,6 @@
 		font-size: 12px;
 	}
 
-	/*.mothers-wrapper .col-xs-3 {*/
-		/*width: 50%;*/
-	/*}*/
-
 }
 
 @media screen and (max-width: 649px) {
@@ -643,6 +639,20 @@
 	.box-info-mothers, .box-info-child{
 		bottom: 20px;
 	}
+	.events-wrapper .col-xs-6{
+		width: 100%;
+	}
+	.events-wrapper .result-item {
+		 /*margin: 0 auto 10px;*/
+		 max-width: 420px;
+	 }
+	.events-wrapper .result-item img{
+		max-width: 420px;
+	}
+	.events-wrapper .result-item {
+		height: auto;
+	}
+
 }
 
 @media screen and (max-width: 380px) {
