@@ -1677,12 +1677,12 @@ textarea.input-review {
 	margin-bottom: 35px;
 }
 
-.travels-item img{
+.travels-item img, .mothers-item img, .child-item img{
 	width: 100%;
 	opacity: 0.8;
 }
 
-.travels-item{
+.travels-item, .mothers-item, .child-item{
 	padding: 0 5px;
 	margin-bottom: 10px;
 }
@@ -1691,11 +1691,11 @@ textarea.input-review {
 	opacity: 1;
 }
 
-.shadow-image:hover .box-info{
+.shadow-image:hover .box-info, .shadow-image:hover .box-info-mothers, .shadow-image:hover .box-info-child{
 	background: rgba(255, 255, 255, 0.9);
 }
 
-.shadow-image:hover .name-travel{
+.shadow-image:hover .name-travel, .shadow-image:hover .name-mothers, .shadow-image:hover .name-child{
 	color: #0085b2;
 }
 
@@ -1704,14 +1704,14 @@ textarea.input-review {
 	position: relative;
 }
 
-.box-info{
+.box-info, .box-info-mothers, .box-info-child{
 	width: 100%;
 	background: rgba(255, 255, 255, 0.6);
 	position: absolute;
 	bottom: 40px;
 	text-align: center;
 	color: #333;
-	padding: 15px 5px;
+	padding: 15px 10px;
 }
 .box-country{
 	width: 100%;
@@ -1728,7 +1728,7 @@ textarea.input-review {
 	margin: 0;
 }
 
-.name-travel{
+.name-travel, .name-mothers, .name-child{
 	font-size: 18px;
 	font-weight: 600;
 	margin: 0 0 3px;
@@ -1738,7 +1738,10 @@ textarea.input-review {
 	font-style: italic;
 	margin: 0;
 }
-.cc{
-	display: inline-block;
-	width: 24%;
+
+.mothers-wrapper, .child-wrapper{
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
 }
+
