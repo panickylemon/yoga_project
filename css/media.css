@@ -88,6 +88,15 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.text-important-event, .date-important-event  {
+		font-size: 14px;
+	}
+	.place-important-event {
+		font-size: 12px;
+	}
+}
+
 @media screen and (max-width: 975px) {
 	.panel-body form .left {
 		width: 100%;
@@ -111,8 +120,6 @@
 		width: 100%;
 		float: none;
 	}
-
-
 }
 
 @media screen and (max-width: 900px) {
@@ -345,6 +352,16 @@
 	.menu-place a span{
 		border-bottom: none !important;
 	}
+    .important-event-box img {
+	    width: 100%;
+	    float: none;
+	    margin: auto;
+    }
+
+	.index-page .pagination-wrapper{
+		margin-top: 25px;
+		padding-bottom: 15px;
+	}
 
 }
 
@@ -507,6 +524,14 @@
 	}
 	.teachers-wrapper{
 		width: 100%;
+	}
+	.button-subtitle {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+	}
+	.subtitle-index-page h2{
+		float: none;
 	}
 }
 
