@@ -1687,11 +1687,54 @@ textarea.input-review {
 	margin-bottom: 10px;
 }
 
-.travels-item img:hover{
+.shadow-image:hover img{
 	opacity: 1;
+}
+
+.shadow-image:hover .box-info{
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.shadow-image:hover .name-travel{
+	color: #0085b2;
 }
 
 .shadow-image{
 	background: #000000;
+	position: relative;
 }
 
+.box-info{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	bottom: 40px;
+	text-align: center;
+	color: #333;
+	padding: 15px 5px;
+}
+.box-country{
+	width: 100%;
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.date-travel{
+	font-size: 12px;
+	margin: 0;
+}
+
+.name-travel{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 3px;
+}
+
+.place-travel{
+	font-style: italic;
+	margin: 0;
+}
