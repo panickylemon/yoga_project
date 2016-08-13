@@ -6,6 +6,7 @@ jQuery(document).ready(function($){
         $('.pointer-menu').removeClass('hidden-arrow');
         $('.menu-place a').addClass('blue-menu');
         $('.submenu').css("margin-top", "-17px");
+        $('.index-page').css("margin-top", "60px");
         $('.menu-place a span').css("border-bottom", "1px solid #0085b2");
     });
     $(".submenu-place, .menu-place").mouseleave(function(){
@@ -13,6 +14,7 @@ jQuery(document).ready(function($){
         $('.pointer-menu').addClass('hidden-arrow');
         $('.menu-place a').removeClass('blue-menu');
         $('.submenu').css("margin-top", "0px");
+        $('.index-page').css("margin-top", "0px");
         $('.menu-place a span').css("border-bottom", "1px solid #999999");
     });
 
