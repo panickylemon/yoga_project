@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" href="owl-carousel2/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
 	<link rel="stylesheet" href="css/build.css"/>
@@ -18,6 +19,7 @@
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/jquery-2.0.2.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/jquery.placeholder.js"></script>
@@ -35,7 +37,17 @@
 	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 	<link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen"/>
 	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script>
+    $( function() {
+        $("#country").selectmenu();
+    });
+    </script>
+    <style>
+            option{
+                width: 100px;
+            }
 
+        </style>
 </head>
 <body>
 <div class="wrapper">
@@ -56,6 +68,7 @@
 						<li><a href="#">Канада</a></li>
 					</ul>
 				</div>
+
 				<div class="btn-group box-place col-sm-2">
 					<button type="button" class="btn btn-default dropdown-toggle dropdown-base city-select"
 					        data-toggle="dropdown"
@@ -163,6 +176,31 @@
 		</div>
 	</header>
 	<main class="clearfix index-page">
+                <select id="country">
+                     <option>Россия</option>
+                     <option>Бразилияfghjjjjjjjjj jjjjjjklklkfffffffffffffffffflk</option>
+                     <option>Канада</option>
+                </select>
+<div class="btn-group box-place col-sm-2">
+					<button type="button" class="btn btn-default dropdown-toggle dropdown-base country-select"
+					        data-toggle="dropdown"
+					        aria-haspopup="true"
+					        aria-expanded="false">
+						Ваша страна <span class="blue-caret"></span>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-selected">
+						<li><a href="#">Россия</a></li>
+						<li><a href="#">Бразилияfghjjjjjjjjjjjjjjjklklklk</a></li>
+						<li><a href="#">Канада</a></li>
+					</ul>
+				</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 		<div class="container-block">
 			<!--<div id="owl-example" class="owl-carousel">-->
 			<!--<div>-->
@@ -1107,8 +1145,10 @@
 			</div>
     <a class="next">След</a>
     <a class="prev">Пред</a>
+
 	</main>
 </div>
+
 <script>
 	$.stellar();
 </script>
