@@ -159,11 +159,18 @@ jQuery(document).ready(function($){
 
     });
 
-    $("#owl-example").owlCarousel({
-        navigation : true,
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true
+    var owl = $("#owl-example");
+    owl.owlCarousel({
+        items : 1,
+        loop: true
+
+    });
+
+    $(".next").click(function(){
+        owl.trigger('next.owl.carousel');
+    });
+    $(".prev").click(function(){
+        owl.trigger('prev.owl.carousel');
     });
 
     $(".fancybox").fancybox({
