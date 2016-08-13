@@ -1676,3 +1676,7 @@ textarea.input-review {
 .description-subtitle{
 	margin-bottom: 35px;
 }
+
+.travels-item img{
+	width: 100%;
+}
