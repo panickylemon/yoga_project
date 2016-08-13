@@ -366,6 +366,10 @@ h2 {
 
 /*menu*/
 
+.sticky{
+	background: #ffffff;
+}
+
 .navbar-nav {
 	margin: 0;
 }
