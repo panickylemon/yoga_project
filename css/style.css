@@ -1738,3 +1738,7 @@ textarea.input-review {
 	font-style: italic;
 	margin: 0;
 }
+.cc{
+	display: inline-block;
+	width: 24%;
+}
