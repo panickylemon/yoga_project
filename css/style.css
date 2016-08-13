@@ -1641,9 +1641,12 @@ textarea.input-review {
 	border-bottom: 1px solid #dddddd;
 }
 
+.events-wrapper .pagination-wrapper, .places-wrapper .pagination-wrapper{
+	margin-top: 10px;
+}
 
 .subtitle-index-page {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .button-subtitle {
@@ -1655,4 +1658,21 @@ textarea.input-review {
 .subtitle-index-page h2 {
 	margin: 0;
 	float: left;
+}
+
+.index-page  .result-item {
+	float: none;
+}
+
+.events-wrapper .result-item {
+	height: 300px;
+}
+
+
+.index-page .quote span{
+	font-style: italic;
+}
+
+.description-subtitle{
+	margin-bottom: 35px;
 }
