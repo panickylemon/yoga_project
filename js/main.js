@@ -222,7 +222,11 @@ jQuery(document).ready(function($){
     $("#country-button .ui-selectmenu-text").text("Ваш город");
     $("#city").selectmenu({appendTo: ".header-select"});
     $("#city-button .ui-selectmenu-text").text("Ваша страна");
-    $("#teacher").selectmenu({appendTo: ".filter-select"});
+    $("#teacher").selectmenu({appendTo: ".filter-select",
+     open: function( event, ui ) {
+         $("#teacher-menu").parent().width($("#teacher-button").outerWidth()-2);
+     }
+    });
     $("#teacher-button .ui-selectmenu-text").text("Выбрать из списка:");
     $("#metro").selectmenu({appendTo: ".btn-metro"});
     $("#metro-button .ui-selectmenu-text").text("Метро");
