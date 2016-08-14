@@ -145,19 +145,6 @@
 	.register-box a:last-child {
 		margin-right: 7%;
 	}
-
-	nav li {
-		width: 25% !important;
-	}
-
-	.submenu, .pointer-menu {
-		display: none;
-	}
-
-	header {
-		border-bottom: 1px solid #dddede;
-	}
-
 	.box-filter-select .btn-group {
 		width: 100%;
 	}
@@ -174,6 +161,11 @@
 		margin-top: -100px;
 	}
 
+	.btn-country, .btn-city{
+		float: left !important;
+		margin-left: 15% !important;
+	}
+
 	.btn-city, .btn-metro {
 		margin-top: 80px;
 	}
@@ -184,6 +176,22 @@
 
 	.accurate-sorting-box {
 		margin-top: 15px;
+	}
+
+
+
+
+
+	nav li {
+		width: 25% !important;
+	}
+
+	.submenu, .pointer-menu {
+		display: none;
+	}
+
+	header {
+		border-bottom: 1px solid #dddede;
 	}
 
 	.sticky {
@@ -207,6 +215,7 @@
 		width: 20%
 	}
 }
+
 
 @media screen and (max-width: 850px) {
 	.result-wrapper, .sorting-wrapper {
@@ -237,6 +246,10 @@
 }
 
 @media screen and (max-width: 768px) {
+	.btn-country, .btn-city{
+		margin-left: 0 !important;
+	}
+
 	.box-place, .partner-link, .register-box, .lang-box, .header-select {
 		display: none;
 	}

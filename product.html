@@ -10,13 +10,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/build.css"/>
 	<link rel='stylesheet' href='css/style.css'>
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/jquery-2.0.2.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="jquery-ui/jquery-ui.min.js"></script>
 	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/jquery.placeholder.js"></script>
 	<script src="js/jquery.inputmask.bundle.js"></script>
     <script src="owl-carousel2/owl.carousel.js"></script>
@@ -38,31 +41,19 @@
 		<div class="top-header container-block clearfix row">
 			<div class="logo-box col-sm-2"><img src="image/logo.png" alt="логотип"></div>
 			<div>
-				<div class="btn-group box-place col-sm-2">
-					<button type="button" class="btn btn-default dropdown-toggle dropdown-base country-select"
-					        data-toggle="dropdown"
-					        aria-haspopup="true"
-					        aria-expanded="false">
-						Ваша страна <span class="blue-caret"></span>
-					</button>
-					<ul class="dropdown-menu dropdown-menu-selected">
-						<li><a href="#">Россия</a></li>
-						<li><a href="#">Бразилияfghjjjjjjjjjjjjjjjklklklk</a></li>
-						<li><a href="#">Канада</a></li>
-					</ul>
+				<div class="col-sm-2 header-select">
+					<select id="city">
+						<option>Росcия</option>
+						<option>Бразилия</option>
+						<option>Канада</option>
+					</select>
 				</div>
-				<div class="btn-group box-place col-sm-2">
-					<button type="button" class="btn btn-default dropdown-toggle dropdown-base city-select"
-					        data-toggle="dropdown"
-					        aria-haspopup="true"
-					        aria-expanded="false">
-						Ваш город <span class="blue-caret"></span>
-					</button>
-					<ul class="dropdown-menu dropdown-menu-selected">
-						<li><a href="#">Санкт-Петербург</a></li>
-						<li><a href="#">Москва</a></li>
-						<li><a href="#">Новосибирск</a></li>
-					</ul>
+				<div class="col-sm-2 header-select">
+					<select id="country">
+						<option>Санкт-Петербург</option>
+						<option>Москва</option>
+						<option>Новосибирск</option>
+					</select>
 				</div>
 			</div>
 			<div class="partner-link col-sm-2">

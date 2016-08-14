@@ -821,62 +821,6 @@ input:disabled + label:hover {
 	margin-top: 0;
 }
 
-/*filter dropdown*/
-
-.box-filter-select {
-	margin: 0 15px;
-	padding-bottom: 20px;
-}
-
-.filter-select {
-	width: 100%;
-}
-
-.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	color: #333;
-	background-color: #ffffff;
-}
-
-.filter-select .dropdown-base {
-	width: 100%;
-	font-weight: normal;
-	font-size: 12px;
-}
-
-.filter-select .dropdown-menu {
-	margin: -2px 0 0;
-}
-
-.filter-select .dropdown-menu-selected {
-	min-width: 100%;
-	font-size: 12px;
-}
-
-.filter-select .blue-caret {
-	margin-top: 4px;
-}
-
-.box-filter-select-only {
-	border-bottom: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	padding-top: 12px;
-}
-
-.box-checkbox-only {
-	border-bottom: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	padding-top: 1px;
-}
-
-.box-filter-select-only .box-filter-select {
-	padding-bottom: 12px;
-}
-
-.box-filter-select-only p {
-	font-weight: 600;
-}
 
 .find-arrow {
 	position: absolute;
@@ -1810,13 +1754,22 @@ textarea.input-review {
 	border: 1px solid #dddddd;
 	outline: none;
 	font-weight: 600;
+	background: #ffffff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
+
+.sorting-select .ui-selectmenu-button.ui-button{
+	width: 100%;
+}
+
+.sorting-select .ui-menu .ui-menu-item-wrapper, .sorting-select .ui-selectmenu-menu {
+	width: 100%;
+}
+
 .ui-selectmenu-menu{
-	/*width: calc(100% + 2px);*/
 	width: 98%;
 	border: 1px solid #dddddd;
 	background: #ffffff;
@@ -1830,6 +1783,10 @@ textarea.input-review {
 	 padding: 3px 25px;
 	 max-width: 100%;
 	 word-wrap: break-word;
+}
+
+.sorting-select li{
+	text-align: left;
 }
 
 .ui-menu .ui-menu-item-wrapper:hover{
@@ -1851,4 +1808,67 @@ textarea.input-review {
 
 .ui-menu .ui-state-focus, .ui-menu .ui-state-active {
 	margin: 0;
+}
+
+
+
+/*filter dropdown*/
+
+.box-filter-select{
+	margin: 0 15px;
+	padding-bottom: 20px;
+}
+
+.filter-select .ui-selectmenu-button.ui-button{
+	width: 100%;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.filter-select .ui-selectmenu-menu{
+	/*width: 100%;*/
+	font-weight: normal;
+	font-size: 12px;
+}
+
+
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	color: #333;
+	background-color: #ffffff;
+}
+
+.filter-select .dropdown-menu {
+	margin: -2px 0 0;
+}
+
+.filter-select .dropdown-menu-selected {
+	min-width: 100%;
+	font-size: 12px;
+}
+
+.filter-select .blue-caret {
+	margin-top: 4px;
+}
+
+.box-filter-select-only {
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding-top: 12px;
+}
+
+.box-checkbox-only {
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding-top: 1px;
+}
+
+.box-filter-select-only .box-filter-select {
+	padding-bottom: 12px;
+}
+
+.box-filter-select-only p {
+	font-weight: 600;
 }

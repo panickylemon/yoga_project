@@ -222,5 +222,16 @@ jQuery(document).ready(function($){
     $("#country-button .ui-selectmenu-text").text("Ваш город");
     $("#city").selectmenu({appendTo: ".header-select"});
     $("#city-button .ui-selectmenu-text").text("Ваша страна");
+    $("#teacher").selectmenu({appendTo: ".filter-select"});
+    $("#teacher-button .ui-selectmenu-text").text("Выбрать из списка:");
+    $("#metro").selectmenu({appendTo: ".btn-metro"});
+    $("#metro-button .ui-selectmenu-text").text("Метро");
+    $("#city-sorting").selectmenu({appendTo: ".btn-city"});
+    $("#city-sorting-button .ui-selectmenu-text").text("Город");
+    $("#region-sorting").selectmenu({appendTo: ".btn-country"});
+    $("#region-sorting-button .ui-selectmenu-text").text("Регион");
+    $("#country-sorting").selectmenu({appendTo: ".btn-country"});
+    $("#country-sorting-button .ui-selectmenu-text").text("Страна");
+
 
 });

@@ -24,8 +24,6 @@
 	<script src="js/jquery.inputmask.bundle.js"></script>
     <script src="owl-carousel2/owl.carousel.js"></script>
 	<script src="js/main.js"></script>
-
-
     <!-- Это всё для fancybox -->
     <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
     <link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -35,12 +33,7 @@
     <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	<!--<script>-->
-		<!--$( function() {-->
-			<!--$("#country").selectmenu({appendTo: ".header-select"});-->
-			<!--$("#country-button .ui-selectmenu-text").text("Ваша страна");-->
-		<!--});-->
-	<!--</script>-->
+
 </head>
 <body>
 
@@ -239,19 +232,27 @@
 								</form>
 							</div>
 							<div class="box-filter-select">
-								<div class="btn-group box-place filter-select">
-									<button type="button" class="btn btn-default dropdown-toggle dropdown-base"
-									        data-toggle="dropdown"
-									        aria-haspopup="true"
-									        aria-expanded="false">
-										Выбрать из списка: <span class="blue-caret"></span>
-									</button>
-									<ul class="dropdown-menu dropdown-menu-selected">
-										<li><a href="#">Петров Семен Валерьевич</a></li>
-										<li><a href="#">Ким Владимирович Петровский-Разумовский</a></li>
-										<li><a href="#">Рапашьям Труди</a></li>
-									</ul>
+								<div class="header-select filter-select">
+									<select id="teacher">
+										<option>Петров Семен Валерьевич</option>
+										<option>Ким Владимирович Петровский-Разумовский</option>
+										<option>Рапашьям Труди</option>
+									</select>
 								</div>
+
+								<!--<div class="btn-group box-place filter-select">-->
+									<!--<button type="button" class="btn btn-default dropdown-toggle dropdown-base"-->
+									        <!--data-toggle="dropdown"-->
+									        <!--aria-haspopup="true"-->
+									        <!--aria-expanded="false">-->
+										<!--Выбрать из списка: <span class="blue-caret"></span>-->
+									<!--</button>-->
+									<!--<ul class="dropdown-menu dropdown-menu-selected">-->
+										<!--<li><a href="#">Петров Семен Валерьевич</a></li>-->
+										<!--<li><a href="#">Ким Владимирович Петровский-Разумовский</a></li>-->
+										<!--<li><a href="#">Рапашьям Труди</a></li>-->
+									<!--</ul>-->
+								<!--</div>-->
 							</div>
 						</div>
 					</div>
@@ -567,63 +568,35 @@
 
 								<div class="accurate-select col-sm-10 col-xs-12 clearfix">
 									<div>
-										<div class="btn-group col-sm-3 col-xs-6">
-											<button type="button"
-											        class="btn btn-default dropdown-toggle dropdown-base btn-metro"
-											        data-toggle="dropdown"
-											        aria-haspopup="true"
-											        aria-expanded="false">
-												Метро <span class="blue-caret"></span>
-											</button>
-											<ul class="dropdown-menu dropdown-menu-selected">
-												<li><a href="#">Невский проспект</a></li>
-												<li><a href="#">Ладожская</a></li>
-												<li><a href="#">Технологический институт</a></li>
-											</ul>
+										<div class="btn-group sorting-select btn-metro col-sm-3 col-xs-6">
+												<select id="metro" class="">
+													<option>Невский проспект</option>
+													<option>Ладожская</option>
+													<option>Технологический институт</option>
+												</select>
 										</div>
-										<div class="btn-group col-sm-3 col-xs-6 ">
-											<button type="button"
-											        class="btn btn-default dropdown-toggle dropdown-base btn-city"
-											        data-toggle="dropdown"
-											        aria-haspopup="true"
-											        aria-expanded="false">
-												Город <span class="blue-caret"></span>
-											</button>
-											<ul class="dropdown-menu dropdown-menu-selected">
-												<li><a href="#">Москва</a></li>
-												<li><a href="#">Санкт-Петербург</a></li>
-												<li><a href="#">Новосибирск</a></li>
-											</ul>
+										<div class="btn-group sorting-select btn-city col-sm-3 col-xs-6">
+											<select id="city-sorting" class="">
+												<option>Москва</option>
+												<option>Санкт-Петербург</option>
+												<option>Новосибирск</option>
+											</select>
 										</div>
 									</div>
 									<div>
-										<div class="btn-group col-sm-3 col-xs-6">
-											<button type="button"
-											        class="btn btn-default dropdown-toggle dropdown-base btn-region"
-											        data-toggle="dropdown"
-											        aria-haspopup="true"
-											        aria-expanded="false">
-												Регион <span class="blue-caret"></span>
-											</button>
-											<ul class="dropdown-menu dropdown-menu-selected">
-												<li><a href="#">Россия</a></li>
-												<li><a href="#">Бразилия</a></li>
-												<li><a href="#">Канада</a></li>
-											</ul>
+										<div class="btn-group sorting-select btn-region col-sm-3 col-xs-6">
+											<select id="region-sorting">
+												<option>Москва</option>
+												<option>Санкт-Петербург</option>
+												<option>Новосибирск</option>
+											</select>
 										</div>
-										<div class="btn-group col-sm-3 col-xs-6">
-											<button type="button"
-											        class="btn btn-default dropdown-toggle dropdown-base btn-country"
-											        data-toggle="dropdown"
-											        aria-haspopup="true"
-											        aria-expanded="false">
-												Cтрана <span class="blue-caret"></span>
-											</button>
-											<ul class="dropdown-menu dropdown-menu-selected">
-												<li><a href="#">Россия</a></li>
-												<li><a href="#">Бразилия</a></li>
-												<li><a href="#">Канада</a></li>
-											</ul>
+										<div class="btn-group sorting-select btn-country col-sm-3 col-xs-6">
+											<select id="country-sorting">
+												<option>Россия</option>
+												<option>Бразилия</option>
+												<option>Канада</option>
+											</select>
 										</div>
 									</div>
 								</div>
