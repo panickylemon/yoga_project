@@ -198,8 +198,10 @@ jQuery(document).ready(function($){
          $(".wrapper-result-item").each(function () {
             var max_height = 0;
             $(this).find(".result-item").each(function () {
-                if ($(this).height() > max_height) {
-                    max_height = $(this).height()
+                var item_height =  $(this).outerHeight();
+                if (item_height > max_height) {
+                    max_height = item_height;
+
                 }
             });
             $(this).find(".result-item").each(function () {
@@ -207,8 +209,10 @@ jQuery(document).ready(function($){
             });
         });
     }
-    resizeResultItem();
     $(window).resize(function(){
+        resizeResultItem();
+    });
+    $(window).load(function(){
         resizeResultItem();
     });
 });
