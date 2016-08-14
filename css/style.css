@@ -1805,6 +1805,7 @@ textarea.input-review {
 .ui-selectmenu-button.ui-button{
 	height: 40px;
 	width: 98%;
+	min-width: 140px;
 	padding: 9px 0 0 25px;
 	border: 1px solid #dddddd;
 	outline: none;
@@ -1815,7 +1816,8 @@ textarea.input-review {
 }
 
 .ui-selectmenu-menu{
-	width: 100%;
+	/*width: calc(100% + 2px);*/
+	width: 98%;
 	border: 1px solid #dddddd;
 	background: #ffffff;
 	-webkit-box-sizing: border-box;
@@ -1826,15 +1828,16 @@ textarea.input-review {
 
 .ui-menu .ui-menu-item-wrapper{
 	 padding: 3px 25px;
-	 /*max-width: 100%;*/
-	/*width: 200px;*/
- }
+	 max-width: 100%;
+	 word-wrap: break-word;
+}
 
 .ui-menu .ui-menu-item-wrapper:hover{
 	color: #bf133f;
 }
 .ui-selectmenu-menu .ui-menu{
 	padding: 8px 0;
+	width: 100% !important;
 }
 
 .ui-selectmenu-icon.ui-icon{

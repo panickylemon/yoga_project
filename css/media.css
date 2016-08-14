@@ -52,15 +52,15 @@
 }
 
 @media screen and (max-width: 1100px) {
-	.blue-caret {
+	.blue-caret, .ui-selectmenu-icon.ui-icon {
 		margin-right: 10px;
 	}
 
-	.dropdown-base {
+	.dropdown-base, .ui-selectmenu-button.ui-button {
 		padding-left: 10px;
 	}
 
-	.dropdown-menu-selected.dropdown-menu > li > a {
+	.dropdown-menu-selected.dropdown-menu > li > a, .ui-menu .ui-menu-item-wrapper {
 		padding: 3px 10px;
 	}
 
@@ -189,15 +189,13 @@
 	.sticky {
 		border-bottom: 1px solid #dddede;
 	}
-}
 
-@media screen and (max-width: 850px) {
 	.partner-link {
 		display: none;
 	}
 
-	.logo-box {
-		width: 20%
+	.box-place, .header-select {
+		width: 20%;
 	}
 
 	.register-box {
@@ -205,10 +203,12 @@
 		margin-left: 3%;
 	}
 
-	.box-place {
-		width: 20%;
+	.logo-box {
+		width: 20%
 	}
+}
 
+@media screen and (max-width: 850px) {
 	.result-wrapper, .sorting-wrapper {
 		width: 96%;
 	}
@@ -237,7 +237,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	.box-place, .partner-link, .register-box, .lang-box {
+	.box-place, .partner-link, .register-box, .lang-box, .header-select {
 		display: none;
 	}
 
@@ -278,8 +278,6 @@
 	.footer-wrapper-link {
 		margin-top: 10px;
 	}
-
-
 
 	.sorting-wrapper {
 		display: none;
@@ -412,23 +410,23 @@
 		margin-top: 25px;
 		display: none;
 	}
-	.filter-page .col-sm-9{
+
+	.filter-page .col-sm-9 {
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 769px) {
 
-	.result-wrapper .col-sm-4{
+	.result-wrapper .col-sm-4 {
 		width: 50%;
 	}
-	.filter-page .result-item{
+
+	.filter-page .result-item {
 		float: none;
 	}
 
-
 }
-
 
 @media screen and (max-width: 586px) {
 
@@ -632,15 +630,15 @@
 	}
 
 	.events-wrapper .col-xs-6, .places-wrapper .col-xs-6, .training-wrapper .col-xs-6, .similar-products-block .col-xs-6,
-	.result-wrapper .col-xs-6{
+	.result-wrapper .col-xs-6 {
 		width: 100%;
 	}
 
-	.index-page .result-item, .page-product .result-item, .filter-page .result-item{
+	.index-page .result-item, .page-product .result-item, .filter-page .result-item {
 		max-width: 420px;
 	}
 
-	.result-item{
+	.result-item {
 		height: auto !important;
 		margin: 0 auto 25px;
 	}
@@ -722,7 +720,8 @@
 	.result-wrapper .clearfix {
 		width: 100%;
 	}
-	.wrapper-arrows-carousel a{
+
+	.wrapper-arrows-carousel a {
 		margin: 0 15px;
 	}
 }

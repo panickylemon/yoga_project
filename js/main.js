@@ -218,4 +218,9 @@ jQuery(document).ready(function($){
         resizeResultItem();
     });
 
+    $("#country").selectmenu({appendTo: ".header-select"});
+    $("#country-button .ui-selectmenu-text").text("Ваш город");
+    $("#city").selectmenu({appendTo: ".header-select"});
+    $("#city-button .ui-selectmenu-text").text("Ваша страна");
+
 });
