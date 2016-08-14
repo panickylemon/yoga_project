@@ -472,11 +472,11 @@
 	}
 	.events-wrapper .result-item {
 		max-width: 420px;
-		height: auto;
+		/*height: auto;*/
 	}
 	.result-item {
 		margin: 0 auto 10px;
-		height: 310px;
+		/*height: 310px;*/
 	}
 }
 
@@ -655,7 +655,7 @@
 	}
 
 	.result-item{
-		height: auto;
+		/*height: auto;*/
 		margin: 0 auto 35px;
 	}
 
