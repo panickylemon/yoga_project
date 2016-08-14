@@ -195,14 +195,14 @@ jQuery(document).ready(function($){
 	});
 
     function resizeResultItem() {
-         $(".clearfix").each(function () {
+         $(".wrapper-result-item").each(function () {
             var max_height = 0;
-            $(".result-item").each(function () {
+            $(this).find(".result-item").each(function () {
                 if ($(this).height() > max_height) {
                     max_height = $(this).height()
                 }
             });
-            $(".result-item").each(function () {
+            $(this).find(".result-item").each(function () {
                 $(this).height(max_height);
             });
         });
