@@ -162,7 +162,7 @@ jQuery(document).ready(function($){
     var owl = $("#owl-example");
     owl.owlCarousel({
         items : 4,
-        loop: true
+        loop: true,
 
     });
 
