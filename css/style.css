@@ -1633,14 +1633,14 @@ textarea.input-review {
 	font-style: italic;
 }
 
-.index-page .pagination-wrapper{
+.index-page .pagination-wrapper {
 	margin-top: 40px;
 	margin-bottom: 50px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #dddddd;
 }
 
-.events-wrapper .pagination-wrapper, .places-wrapper .pagination-wrapper, .training-wrapper .pagination-wrapper{
+.events-wrapper .pagination-wrapper, .places-wrapper .pagination-wrapper, .training-wrapper .pagination-wrapper {
 	margin-top: 10px;
 }
 
@@ -1659,7 +1659,7 @@ textarea.input-review {
 	float: left;
 }
 
-.index-page  .result-item {
+.index-page .result-item {
 	float: none;
 }
 
@@ -1667,43 +1667,42 @@ textarea.input-review {
 	/*height: 300px;*/
 }
 
-
-.index-page .quote span{
+.index-page .quote span {
 	font-style: italic;
 }
 
-.description-subtitle{
+.description-subtitle {
 	margin-bottom: 35px;
 }
 
-.travels-item img, .mothers-item img, .child-item img{
+.travels-item img, .mothers-item img, .child-item img {
 	width: 100%;
 	opacity: 0.8;
 }
 
-.travels-item, .mothers-item, .child-item{
+.travels-item, .mothers-item, .child-item {
 	padding: 0 5px;
 	margin-bottom: 10px;
 }
 
-.shadow-image:hover img{
+.shadow-image:hover img {
 	opacity: 1;
 }
 
-.shadow-image:hover .box-info, .shadow-image:hover .box-info-mothers, .shadow-image:hover .box-info-child{
+.shadow-image:hover .box-info, .shadow-image:hover .box-info-mothers, .shadow-image:hover .box-info-child {
 	background: rgba(255, 255, 255, 0.9);
 }
 
-.shadow-image:hover .name-travel, .shadow-image:hover .name-mothers, .shadow-image:hover .name-child{
+.shadow-image:hover .name-travel, .shadow-image:hover .name-mothers, .shadow-image:hover .name-child {
 	color: #0085b2;
 }
 
-.shadow-image{
+.shadow-image {
 	background: #000000;
 	position: relative;
 }
 
-.box-info, .box-info-mothers, .box-info-child{
+.box-info, .box-info-mothers, .box-info-child {
 	width: 100%;
 	background: rgba(255, 255, 255, 0.6);
 	position: absolute;
@@ -1712,7 +1711,8 @@ textarea.input-review {
 	color: #333;
 	padding: 15px 10px;
 }
-.box-country{
+
+.box-country {
 	width: 100%;
 	position: absolute;
 	top: 20px;
@@ -1722,42 +1722,41 @@ textarea.input-review {
 	font-weight: bold;
 }
 
-.date-travel{
+.date-travel {
 	font-size: 12px;
 	margin: 0;
 }
 
-.name-travel, .name-mothers, .name-child{
+.name-travel, .name-mothers, .name-child {
 	font-size: 18px;
 	font-weight: 600;
 	margin: 0 0 3px;
 }
 
-.place-travel{
+.place-travel {
 	font-style: italic;
 	margin: 0;
 }
 
-.mothers-wrapper, .child-wrapper{
+.mothers-wrapper, .child-wrapper {
 	border-bottom: 1px solid #dddddd;
 	padding-bottom: 40px;
 	margin-bottom: 50px;
 }
 
-
-
-.photogallery-item-wide{
+.photogallery-item-wide {
 	width: 100%;
 	padding: 3px;
 }
 
-.photogallery-item-narrow{
+.photogallery-item-narrow {
 	width: 50%;
 	float: left;
 	padding: 3px;
 }
 
-.owl-carousel .next{
-
+.owl-carousel .next {
+	width: 52px;
+	height: 52px;
 
 }
