@@ -193,4 +193,22 @@ jQuery(document).ready(function($){
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
+
+    function resizeResultItem() {
+         $(".clearfix").each(function () {
+            var max_height = 0;
+            $(".result-item").each(function () {
+                if ($(this).height() > max_height) {
+                    max_height = $(this).height()
+                }
+            });
+            $(".result-item").each(function () {
+                $(this).height(max_height);
+            });
+        });
+    }
+    resizeResultItem();
+    $(window).resize(function(){
+        resizeResultItem();
+    });
 });
