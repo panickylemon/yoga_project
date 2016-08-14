@@ -166,17 +166,16 @@ jQuery(document).ready(function($){
         responsiveClass:true,
         responsive:{
             0:{
-                items:1,
-                nav:true
+                items:1
             },
             600:{
-                items:3,
-                nav:false
+                items:2
+            },
+            930:{
+                items:3
             },
             1000:{
-                items:4,
-                nav:true,
-                loop:false
+                items:4
             }
         }
 
