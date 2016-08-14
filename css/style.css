@@ -1822,9 +1822,10 @@ textarea.input-review {
 	box-sizing: border-box;
 }
 
+
 .ui-menu .ui-menu-item-wrapper{
 	 padding: 3px 25px;
-	 width: 200px;
+	 /*max-width: 200px;*/
  }
 
 .ui-menu .ui-menu-item-wrapper:hover{

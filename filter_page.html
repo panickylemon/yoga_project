@@ -10,13 +10,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/build.css"/>
 	<link rel='stylesheet' href='css/style.css'>
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/jquery-2.0.2.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="jquery-ui/jquery-ui.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/jquery.placeholder.js"></script>
 	<script src="js/jquery.inputmask.bundle.js"></script>
     <script src="owl-carousel2/owl.carousel.js"></script>
@@ -32,6 +35,11 @@
     <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script>
+		$( function() {
+			$("#country").selectmenu({appendTo: ".filter-page-page"});
+		});
+	</script>
 </head>
 <body>
 
@@ -40,18 +48,24 @@
 		<div class="top-header container-block clearfix row">
 			<div class="logo-box col-sm-2"><img src="image/logo.png" alt="логотип"></div>
 			<div>
-				<div class="btn-group box-place col-sm-2">
-					<button type="button" class="btn btn-default dropdown-toggle dropdown-base country-select"
-					        data-toggle="dropdown"
-					        aria-haspopup="true"
-					        aria-expanded="false">
-						Ваша страна <span class="blue-caret"></span>
-					</button>
-					<ul class="dropdown-menu dropdown-menu-selected">
-						<li><a href="#">Россия</a></li>
-						<li><a href="#">Бразилияfghjjjjjjjjjjjjjjjklklklk</a></li>
-						<li><a href="#">Канада</a></li>
-					</ul>
+				<div class="col-sm-2">
+					<select id="country">
+						<option>Ваша страна</option>
+						<option>Росcия</option>
+						<option>Бразилия Бразилия Бразилия</option>
+						<option>Канада</option>
+					</select>
+					<!--<button type="button" class="btn btn-default dropdown-toggle dropdown-base country-select"-->
+					        <!--data-toggle="dropdown"-->
+					        <!--aria-haspopup="true"-->
+					        <!--aria-expanded="false">-->
+						<!--Ваша страна <span class="blue-caret"></span>-->
+					<!--</button>-->
+					<!--<ul class="dropdown-menu dropdown-menu-selected">-->
+						<!--<li><a href="#">Россия</a></li>-->
+						<!--<li><a href="#">Бразилияfghjjjjjjjjjjjjjjjklklklk</a></li>-->
+						<!--<li><a href="#">Канада</a></li>-->
+					<!--</ul>-->
 				</div>
 				<div class="btn-group box-place col-sm-2">
 					<button type="button" class="btn btn-default dropdown-toggle dropdown-base city-select"
