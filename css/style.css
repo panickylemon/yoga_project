@@ -925,11 +925,9 @@ input:disabled + label:hover {
 }
 
 .result-item {
-	margin: auto;
+	margin: 0 auto 15px;
 	width: 100%;
-	/*height: 325px;*/
 	height: auto;
-	/*max-width: 275px;*/
 	padding: 0 5px;
 	float: right;
 }
