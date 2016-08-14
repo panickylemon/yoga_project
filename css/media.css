@@ -438,10 +438,7 @@
 		margin: auto;
 	}
 
-	.result-item {
-		margin: 0 auto 35px;
-		height: auto;
-	}
+
 
 	.map-container {
 		display: none;
@@ -472,6 +469,14 @@
 	.button-similar-products {
 		margin-left: 0;
 		float: none;
+	}
+	.events-wrapper .result-item {
+		max-width: 420px;
+		height: auto;
+	}
+	.result-item {
+		margin: 0 auto 10px;
+		height: 310px;
 	}
 }
 
@@ -636,21 +641,22 @@
 	.date-travel {
 		font-size: 10px;
 	}
-	.box-info-mothers, .box-info-child{
+
+	.box-info-mothers, .box-info-child {
 		bottom: 20px;
 	}
-	.events-wrapper .col-xs-6{
+
+	.events-wrapper .col-xs-6, .places-wrapper .col-xs-6, .training-wrapper .col-xs-6{
 		width: 100%;
 	}
-	.events-wrapper .result-item {
-		 /*margin: 0 auto 10px;*/
-		 max-width: 420px;
-	 }
-	.events-wrapper .result-item img{
+
+	.places-wrapper .result-item, .result-item img, .training-wrapper img {
 		max-width: 420px;
 	}
-	.events-wrapper .result-item {
+
+	.result-item{
 		height: auto;
+		margin: 0 auto 35px;
 	}
 
 }
@@ -674,20 +680,20 @@
 	}
 
 	.shadow-image:hover .box-info {
-		 background: rgba(0, 0, 0, 0.5);
-	 }
+		background: rgba(0, 0, 0, 0.5);
+	}
 
 	.shadow-image:hover .box-info-mothers, .shadow-image:hover .box-info-child {
 		background: rgba(255, 255, 255, 0.6);
 	}
 
-	.name-travel, .date-travel, .place-travel{
+	.name-travel, .date-travel, .place-travel {
 		color: #ffffff;
 	}
 
 	.shadow-image:hover .name-mothers, .shadow-image:hover .name-child {
-		 color: #333;
-	 }
+		color: #333;
+	}
 
 	.shadow-image:hover .name-travel {
 		color: #333;
