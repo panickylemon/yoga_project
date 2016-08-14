@@ -137,7 +137,7 @@
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 945px) {
 	.register-box a:first-child {
 		margin-left: 7%;
 	}
@@ -145,6 +145,7 @@
 	.register-box a:last-child {
 		margin-right: 7%;
 	}
+
 	.box-filter-select .btn-group {
 		width: 100%;
 	}
@@ -161,7 +162,7 @@
 		margin-top: -100px;
 	}
 
-	.btn-country, .btn-city{
+	.btn-country, .btn-city {
 		float: left !important;
 		margin-left: 15% !important;
 	}
@@ -178,10 +179,9 @@
 		margin-top: 15px;
 	}
 
+}
 
-
-
-
+	@media screen and (max-width: 900px) {
 	nav li {
 		width: 25% !important;
 	}
@@ -504,10 +504,7 @@
 		width: 100%;
 	}
 
-	.accurate-sorting-box .clearfix {
-		width: 100%;
-		margin: 0 auto 20px;
-	}
+
 
 	.accurate-sorting-box .button-sorting {
 		margin: 0;
@@ -529,7 +526,7 @@
 
 	.subsections-link {
 		margin-top: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		padding-bottom: 30px;
 	}
 
@@ -545,11 +542,11 @@
 	}
 
 	.btn-region {
-		margin-top: -155px;
+		margin-top: -165px;
 	}
 
 	.btn-city {
-		margin-top: -5px;
+		margin-top: 0;
 	}
 
 	.btn-metro {
@@ -565,7 +562,8 @@
 	}
 
 	.accurate-sorting-box .clearfix {
-		margin: 0 auto -20px;
+		width: 100%;
+		margin: 0 auto 10px;
 	}
 
 	.button-send {
