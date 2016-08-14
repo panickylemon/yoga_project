@@ -234,12 +234,12 @@ jQuery(document).ready(function($){
         }
     });
     $("#parents-button .ui-selectmenu-text").text("Можно с родителями:");
-    $("#cafe-button .ui-selectmenu-text").text("Не важно");
     $("#cafe").selectmenu({appendTo: ".filter-select3",
         open: function( event, ui ) {
             $("#cafe-menu").parent().width($("#cafe-button").outerWidth()-2);
         }
     });
+    $("#cafe-button .ui-selectmenu-text").text("Не важно");
     $("#metro").selectmenu({appendTo: ".btn-metro"});
     $("#metro-button .ui-selectmenu-text").text("Метро");
     $("#city-sorting").selectmenu({appendTo: ".btn-city"});
