@@ -222,12 +222,24 @@ jQuery(document).ready(function($){
     $("#country-button .ui-selectmenu-text").text("Ваш город");
     $("#city").selectmenu({appendTo: ".header-select"});
     $("#city-button .ui-selectmenu-text").text("Ваша страна");
-    $("#teacher").selectmenu({appendTo: ".filter-select",
+    $("#teacher").selectmenu({appendTo: ".filter-select1",
      open: function( event, ui ) {
          $("#teacher-menu").parent().width($("#teacher-button").outerWidth()-2);
      }
     });
     $("#teacher-button .ui-selectmenu-text").text("Выбрать из списка:");
+    $("#parents").selectmenu({appendTo: ".filter-select2",
+        open: function( event, ui ) {
+            $("#parents-menu").parent().width($("#parents-button").outerWidth()-2);
+        }
+    });
+    $("#parents-button .ui-selectmenu-text").text("Можно с родителями:");
+    $("#cafe-button .ui-selectmenu-text").text("Не важно");
+    $("#cafe").selectmenu({appendTo: ".filter-select3",
+        open: function( event, ui ) {
+            $("#cafe-menu").parent().width($("#cafe-button").outerWidth()-2);
+        }
+    });
     $("#metro").selectmenu({appendTo: ".btn-metro"});
     $("#metro-button .ui-selectmenu-text").text("Метро");
     $("#city-sorting").selectmenu({appendTo: ".btn-city"});
