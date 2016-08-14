@@ -1800,3 +1800,49 @@ textarea.input-review {
 .wrapper-arrows-carousel a{
 	margin: 0 35px;
 }
+
+
+.ui-selectmenu-button.ui-button{
+	height: 40px;
+	width: 98%;
+	padding: 9px 0 0 25px;
+	border: 1px solid #dddddd;
+	outline: none;
+	font-weight: 600;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui-selectmenu-menu{
+	width: 98%;
+	border: 1px solid #dddddd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui-menu .ui-menu-item-wrapper{
+	 padding: 3px 25px;
+	 width: 200px;
+ }
+
+.ui-menu .ui-menu-item-wrapper:hover{
+	color: #bf133f;
+}
+.ui-selectmenu-menu .ui-menu{
+	padding: 8px 0;
+}
+
+.ui-selectmenu-icon.ui-icon{
+	height: 15px;
+	margin-right: 25px;
+	margin-top: 7px;
+	width: 12px;
+	text-align: right;
+	background: url("../image/arrow_bottom.png") no-repeat;
+}
+
+.ui-menu .ui-state-focus, .ui-menu .ui-state-active {
+	margin: 0;
+}
