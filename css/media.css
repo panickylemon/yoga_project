@@ -170,10 +170,6 @@
 		margin-bottom: 15px;
 	}
 
-	.result-wrapper .col-sm-4 {
-		width: 50%;
-	}
-
 	.btn-country, .btn-region {
 		margin-top: -100px;
 	}
@@ -283,11 +279,7 @@
 		margin-top: 10px;
 	}
 
-	.filter-box .panel-group {
-		min-width: 100%;
-		margin-top: 25px;
-		display: none;
-	}
+
 
 	.sorting-wrapper {
 		display: none;
@@ -315,15 +307,6 @@
 
 	.result-wrapper {
 		margin-top: 40px;
-	}
-
-	.result-wrapper .col-sm-4 {
-		width: 100%;
-	}
-
-	.result-wrapper .clearfix {
-		width: 550px;
-		margin: auto;
 	}
 
 	.pagination-wrapper {
@@ -424,21 +407,30 @@
 		font-size: 12px;
 	}
 
-}
-
-@media screen and (max-width: 649px) {
-	.result-wrapper .col-sm-4 {
+	.filter-box .panel-group {
+		min-width: 100%;
+		margin-top: 25px;
+		display: none;
+	}
+	.filter-page .col-sm-9{
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 586px) {
-	.result-wrapper .clearfix {
-		width: 270px;
-		margin: auto;
+@media screen and (max-width: 769px) {
+
+	.result-wrapper .col-sm-4{
+		width: 50%;
+	}
+	.filter-page .result-item{
+		float: none;
 	}
 
 
+}
+
+
+@media screen and (max-width: 586px) {
 
 	.map-container {
 		display: none;
@@ -639,11 +631,12 @@
 		bottom: 20px;
 	}
 
-	.events-wrapper .col-xs-6, .places-wrapper .col-xs-6, .training-wrapper .col-xs-6, .similar-products-block .col-xs-6{
+	.events-wrapper .col-xs-6, .places-wrapper .col-xs-6, .training-wrapper .col-xs-6, .similar-products-block .col-xs-6,
+	.result-wrapper .col-xs-6{
 		width: 100%;
 	}
 
-	.index-page .result-item, .page-product .result-item {
+	.index-page .result-item, .page-product .result-item, .filter-page .result-item{
 		max-width: 420px;
 	}
 
