@@ -930,6 +930,7 @@ input:disabled + label:hover {
 	height: auto;
 	padding: 0 5px;
 	float: right;
+	max-width: 285px;
 }
 
 .result-item p {
@@ -939,7 +940,7 @@ input:disabled + label:hover {
 
 .result-item img {
 	width: 100%;
-	max-width: 275px;
+
 }
 
 .result-item-city, .result-item-date {
@@ -1755,8 +1756,51 @@ textarea.input-review {
 	padding: 3px;
 }
 
-.owl-carousel .next {
+.wrapper-arrows-carousel{
+	margin: 25px auto 70px;
+	text-align: center;
+}
+
+.next, .prev {
+	display: inline-block;
 	width: 52px;
 	height: 52px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background: #ffffff;
+	border: 1px solid #0085b2;
+	cursor: pointer;
+}
 
+.next div{
+	width: 46px;
+	height: 46px;
+	background: url("../image/slider-next.png") no-repeat 58% 50% #0085b2;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	margin: 2px 0 0 2px;
+}
+
+.prev div{
+	width: 46px;
+	height: 46px;
+	background: url("../image/slider-prev.png") no-repeat 43% 50% #0085b2;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	margin: 2px 0 0 2px;
+}
+
+.next:hover div{
+	background: url("../image/slider-next-hover.png") no-repeat 58% 50% #ffffff;
+}
+
+.prev:hover div{
+	background: url("../image/slider-prev-hover.png") no-repeat 43% 50% #ffffff;
+}
+
+.wrapper-arrows-carousel a{
+	margin: 0 35px;
 }

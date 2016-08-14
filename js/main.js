@@ -161,17 +161,16 @@ jQuery(document).ready(function($){
 
     var owl = $("#owl-example");
     owl.owlCarousel({
-        //items : 4,
         loop: true,
-        responsiveClass:true,
+        //responsiveClass:true,
         responsive:{
             0:{
                 items:1
             },
-            600:{
+            450:{
                 items:2
             },
-            930:{
+            800:{
                 items:3
             },
             1000:{

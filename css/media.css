@@ -470,14 +470,7 @@
 		margin-left: 0;
 		float: none;
 	}
-	.events-wrapper .result-item {
-		max-width: 420px;
-		/*height: auto;*/
-	}
-	.result-item {
-		margin: 0 auto 10px;
-		/*height: 310px;*/
-	}
+
 }
 
 @media screen and (max-width: 520px) {
@@ -655,8 +648,8 @@
 	}
 
 	.result-item{
-		/*height: auto;*/
-		margin: 0 auto 35px;
+		height: auto !important;
+		margin: 0 auto 25px;
 	}
 
 }
