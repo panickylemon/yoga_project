@@ -164,6 +164,7 @@ jQuery(document).ready(function($){
         items : 4,
         loop: true,
 
+
     });
 
     $(".next").click(function(){
