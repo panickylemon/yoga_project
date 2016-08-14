@@ -1815,8 +1815,9 @@ textarea.input-review {
 }
 
 .ui-selectmenu-menu{
-	width: 98%;
+	width: 100%;
 	border: 1px solid #dddddd;
+	background: #ffffff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1825,7 +1826,8 @@ textarea.input-review {
 
 .ui-menu .ui-menu-item-wrapper{
 	 padding: 3px 25px;
-	 /*max-width: 200px;*/
+	 /*max-width: 100%;*/
+	/*width: 200px;*/
  }
 
 .ui-menu .ui-menu-item-wrapper:hover{
