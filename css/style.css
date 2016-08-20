@@ -1100,17 +1100,35 @@ nav li a:hover span {
 	width: 43%;
 }
 
-.button-base input {
+/*.button-base input {*/
+	/*width: 100%;*/
+	/*max-width: 165px;*/
+	/*height: 40px;*/
+	/*background: #ffffff;*/
+	/*outline: none;*/
+	/*border: 1px solid #aaaaaa;*/
+	/*font-weight: 600;*/
+/*}*/
+
+.button-base div{
 	width: 100%;
 	max-width: 165px;
 	height: 40px;
 	background: #ffffff;
-	outline: none;
 	border: 1px solid #aaaaaa;
 	font-weight: 600;
+	color: #333333;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	padding-top: 9px;
 }
 
-.button-base input:hover {
+.button-base:hover{
+	text-decoration: none;
+}
+
+.button-base div:hover {
 	background: #00befe;
 	color: #ffffff;
 	border: none;
@@ -1826,11 +1844,9 @@ textarea.input-review {
 }
 
 .filter-select .ui-selectmenu-menu{
-	/*width: 100%;*/
 	font-weight: normal;
 	font-size: 12px;
 }
-
 
 
 .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
