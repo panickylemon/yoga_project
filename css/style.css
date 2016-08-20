@@ -627,7 +627,6 @@ main {
 .accurate-sorting-box .btn-group {
 	width: 24%;
 	max-width: 190px;
-	float: right;
 	margin-left: 1%;
 }
 
@@ -1099,16 +1098,6 @@ nav li a:hover span {
 	float: right;
 	width: 43%;
 }
-
-/*.button-base input {*/
-	/*width: 100%;*/
-	/*max-width: 165px;*/
-	/*height: 40px;*/
-	/*background: #ffffff;*/
-	/*outline: none;*/
-	/*border: 1px solid #aaaaaa;*/
-	/*font-weight: 600;*/
-/*}*/
 
 .button-base div{
 	width: 100%;
