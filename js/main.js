@@ -87,6 +87,48 @@ jQuery(document).ready(function($){
         $(this).prev('span.button-view-full').fadeToggle(500);
     });
 
+
+    $(".description-item-preview").each(function () {
+        text = $(this).text();
+        if (text.length > 361) {
+            $(this).html(text.substr(0, 361) + '<span class="button-read-full">' + text.substr(361) + '</span><a' +
+                ' class="button-read-full" href="#">Читать далее</a>');
+        }
+    });
+    $(".description-item-preview > a.button-read-full").click(function (e) {
+        e.preventDefault(); //prevent '#' from being added to the url
+        $(this).fadeToggle(500);
+        $(this).prev('span.button-read-full').fadeToggle(500);
+    });
+
+    //$(".description-item-preview").each(function () {
+    //    var length = 0;
+    //    var full_text = '';
+    //    var not_hide = true;
+    //    $(this).find('p').each(function () {
+    //        text = $(this).text();
+    //        console.log(text);
+    //        length += text.length;
+    //        if (not_hide) {
+    //            if (length > 240) {
+    //                full_text += '<p>' + text.substr(0, 240) + '<span class="view-full">' + text.substr(240) + '</span><a' +
+    //                    ' class="view-full" href="#">Посмотреть целиком</a>'+'</p>';
+    //                not_hide = false;
+    //            } else {
+    //                full_text += '<p>' + text + '</p>';
+    //            }
+    //        } else {
+    //            full_text += '<p class="view-full>' + text + '</p>';
+    //        }
+    //    });
+    //    $(this).html(full_text);
+    //});
+    //$(".description-item-preview > a.view-full").click(function (e) {
+    //    e.preventDefault(); //prevent '#' from being added to the url
+    //    $(this).fadeToggle(500);
+    //    $(this).prev('span.view-full').fadeToggle(500);
+    //});
+
     function isEmail(email) {
       var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
       return regex.test(email);
@@ -248,6 +290,8 @@ jQuery(document).ready(function($){
     $("#region-sorting-button .ui-selectmenu-text").text("Регион");
     $("#country-sorting").selectmenu({appendTo: ".btn-country"});
     $("#country-sorting-button .ui-selectmenu-text").text("Страна");
+
+
 
 
 });
