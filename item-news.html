@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Новость</title>
+	<meta name="keywords"
+	      content=" "/>
+	<meta name="description"
+	      content=" "/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/build.css"/>
+	<link rel='stylesheet' href='css/style.css'>
+	<link rel='stylesheet' href='css/media.css'>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-2.0.2.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="jquery-ui/jquery-ui.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.placeholder.js"></script>
+	<script src="js/jquery.inputmask.bundle.js"></script>
+	<script src="owl-carousel2/owl.carousel.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Это всё для fancybox -->
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen"/>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen"/>
+	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen"/>
+	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<div class="top-header container-block clearfix row">
+			<div class="logo-box col-sm-2"><img src="image/logo.png" alt="логотип"></div>
+			<div>
+				<div class="col-sm-2 header-select">
+					<select id="city">
+						<option>Росcия</option>
+						<option>Бразилия</option>
+						<option>Канада</option>
+					</select>
+				</div>
+				<div class="col-sm-2 header-select">
+					<select id="country">
+						<option>Санкт-Петербург</option>
+						<option>Москва</option>
+						<option>Новосибирск</option>
+					</select>
+				</div>
+			</div>
+			<div class="partner-link col-sm-2">
+				<a href="#">
+					Стать партнером
+				</a>
+			</div>
+			<div class="register-box col-sm-3 clearfix">
+				<div>
+					<a href="#">
+						<p>Регистрация</p>
+					</a>
+					<a href="#">
+						<p>Вход</p>
+					</a>
+				</div>
+			</div>
+			<div class="lang-box col-sm-1 pull-right">
+				<a href="#" class="active"><p>RU</p></a>
+				<a href="#"><p>ENG</p></a>
+			</div>
+			<div class="burger-menu ">
+				<a href="#"><img src="image/burger.png" alt="иконка"></a>
+			</div>
+		</div>
+
+		<nav class="container-block clearfix">
+			<ul class="nav navbar-nav menu clearfix">
+				<li><a href="#"><span>Интересное&nbsp;сейчас</span></a></li>
+				<li class="menu-item-select menu-place"><a href="#"><span>Места</span></a><span
+						class="pointer-menu hidden-arrow"></span>
+				</li>
+				<li><a href="#"><span>Мероприятия</span></a></li>
+				<li><a href="#"><span>Обучение</span></a></li>
+				<li><a href="#"><span>Мамам</span></a></li>
+				<li><a href="#"><span>Путешествия</span></a></li>
+				<li><a href="#"><span>Детям</span></a></li>
+				<li><a href="#"><span>Журнал</span></a></li>
+				<li class="visible-xs-block">
+					<div class="container-block">
+						<div class="register-box-mobile">
+							<div>
+								<a href="#">
+									<p>Регистрация</p>
+								</a>
+								<a href="#">
+									<p>Вход</p>
+								</a>
+							</div>
+						</div>
+						<div class="lang-box-mobile pull-right">
+							<a href="#" class="active"><p>RU</p></a>
+							<a href="#"><p>ENG</p></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="submenu">
+			<ul class="nav container-block submenu-place hidden-submenu-place clearfix">
+				<li><a href="#"><span>Вегетарианские кафе и рестораны</span></a></li>
+				<li><a href="#"><span>Гурудвары</span></a></li>
+				<li><a href="#"><span>Клиники</span></a></li>
+				<li><a href="#"><span>Магазины</span></a></li>
+				<li><a href="#"><span>Ярмарки</span></a></li>
+				<li><a href="#"><span>Клиники аюрведа</span></a></li>
+				<li><a href="#"><span>Йоготерапия</span></a></li>
+				<li><a href="#"><span>Пренатальная</span></a></li>
+			</ul>
+		</div>
+
+	</header>
+	<main class="clearfix page-item-news">
+		<div class="container-block">
+
+			<div class="wrapper-item-news">
+
+				<div class="clearfix subtitle-item-news-page">
+
+					<a class="button-base button-back">
+						<div>
+							Вернуться к списку
+						</div>
+					</a>
+
+					<h1>Что едят йоги — правила и принципы питания йогов</h1>
+
+
+				</div>
+				<div class="content-item-news clearfix">
+					<div class="img-item-news"><img src="image/image-news.png" alt="Философия йогов"></div>
+
+					<p>Философия йогов тесно связана с понятием прана или психическая энергия. Прана – результат
+						взаимодействия человека и продуктов. <a href="#">Прану</a> человек может получить из любой
+						пищи, особенно, если будет ее готовить в хорошем настроении. Существуют принципы правильного
+						питания, которых придерживаются йоги.</p>
+
+					<p>Вот главные из них:</p>
+					<ul>
+						<li><p class="bold-text">Суть питания — не в ограничениях</p>
+							<p>Главное, чтобы пища была полезной для организма, свежей и натуральной. Очень важен и процесс
+							приготовление еды, сам продукт имеет лишь второстепенное значение.</p>
+						</li>
+						<li><p class="bold-text">Отказ от мяса — неверный шаг</p>
+							<p>Многие йоги считают, что мясные блюда относятся к «грязной» пище. Это не так. Правильно
+							приготовленное блюдо и культура его потребления могут принести пользу организму.</p>
+						</li>
+						<li><p class="bold-text">Количество съеденного остается на втором плане</p>
+							<p>Йоги считают, что любой человек может нормализовать вес. А принципы питания для всех
+							одинаковы, несмотря на то, что кто-то хочет похудеть, а кто-то поправиться.</p>
+						</li>
+						<li><p class="bold-text">Нет — калориям!</p>
+							<p>Йоги не считают калории.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="wrapper-additionally-info">
+					<p class="title-additionally-info">Еще по теме</p>
+					<a>Питание</a>
+				</div>
+
+			</div>
+
+			<div class="wrapper-blog">
+
+				<div class="clearfix subtitle-news-page">
+					<h2>Также вас может заинтересовать:</h2>
+					<a class="button-base button-subtitle">
+						<div>
+							Посмотреть все
+						</div>
+					</a>
+				</div>
+
+				<div class="articles-box clearfix">
+					<div class="wrapper-item-article">
+						<div class="box-preview-article">
+							<img src="image/preview-example.png" alt="статья">
+
+							<div class="wrapper-theme-date clearfix">
+								<p class="theme-item-preview">Блоги / Личный опыт</p>
+
+								<p class="date-item-preview">19 сентября 2016</p>
+							</div>
+							<h3 class="title-item-preview"><a href="#">Ежегодный фестиваль кундалини-йоги</a></h3>
+
+							<div class="description-item-preview">
+								<p>До нашего прекрасного Фестиваля Кундалини Йоги осталось 5 дней! Нам просто не
+									верится, что уже так скоро состоится самое радостное и тпо-настоящему йоговское
+									событие этого лета.<br>
+
+									Давайте вместе разберемся, что нужно взять с собой, а что лучше оставить дома.</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-item-article">
+						<div class="box-preview-article">
+							<img src="image/preview-example.png" alt="статья">
+
+							<div class="wrapper-theme-date clearfix">
+								<p class="theme-item-preview">Блоги / Интервью</p>
+
+								<p class="date-item-preview">1 июня 2016</p>
+							</div>
+							<h3 class="title-item-preview"><a href="#">Интервью с удивительным йогом Ом Шанти</a></h3>
+
+							<div class="description-item-preview">
+								<p>Со времени зарождения рассудочного мышления, как только человек начал делить мир на
+									познающего и познаваемое, он начал «разгадывать» тайны природы. С этих пор человек
+									стремится понять суть, цель и смысл своего бытия.
+
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-item-article">
+						<div class="box-preview-article">
+							<img src="image/preview-example.png" alt="статья">
+
+							<div class="wrapper-theme-date clearfix">
+								<p class="theme-item-preview">Блоги / Личный опыт</p>
+
+								<p class="date-item-preview">7 апреля 2016</p>
+							</div>
+							<h3 class="title-item-preview"><a href="#">Мария Скатова: Йога для начинающих, без фанатизма
+								и самодеятельности</a></h3>
+
+							<div class="description-item-preview">
+								<p>Философия йогов тесно связана с понятием прана или психическая энергия. Прана –
+									результат взаимодействия человека и продуктов. Прану человек может получить из любой
+									пищи, особенно, если будет ее готовить в хорошем настроении.
+									Для того чтобы ответить на основные вопросы: «Кто я такой, откуда я пришел, зачем
+									я здесь, как мне вернуться домой?» человеку мало было одной земной жизни.</p>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</main>
+</div>
+<footer>
+	<div class="container-block">
+		<div class="clearfix">
+			<div class="lofo-footer"><img src="image/logo_footer.png" alt="логотип"></div>
+			<div class="footer-social-network">
+				<a href="#"><img src="image/facebook.png" alt="facebook"></a>
+				<a href="#"><img src="image/instagram.png" alt="instagram"></a>
+				<a href="#"><img src="image/vk.png" alt="vk"></a>
+				<a href="#"><img src="image/utube.png" alt="youtube"></a>
+
+				<p>Присоединяйтесь к нам!</p>
+			</div>
+		</div>
+		<div class="footer-wrapper-link clearfix">
+			<div class="col-sm-3 col-xs-4 col-xxs">
+				<div>
+					<ul class="nav footer-first-block">
+						<li><a href="#"><span>О проекте</span></a></li>
+						<li><a href="#"><span>Стать партнером</span></a></li>
+						<li><a href="#"><span>Контакты</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-4 col-xxs">
+				<div>
+					<ul class="nav footer-second-block">
+						<li><a href="#"><span>Интересное сейчас</span></a></li>
+						<li><a href="#"><span>Места</span></a></li>
+						<li><a href="#"><span>Мероприятия</span></a></li>
+						<li><a href="#"><span>Обучение</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-4 col-xxs">
+				<div>
+					<ul class="nav footer-third-block">
+						<li><a href="#"><span>Мамам</span></a></li>
+						<li><a href="#"><span>Путешествия</span></a></li>
+						<li><a href="#"><span>Детям</span></a></li>
+						<li><a href="#"><span>Журнал</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer-copyright">
+			<p>&copy; 2016 globe.yoga</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
