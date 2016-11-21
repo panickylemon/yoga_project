@@ -2114,15 +2114,10 @@ span.button-read-full {
 .caret-arrow{
 	display: inline-block;
 	height: 15px;
-	/*margin-right: 25px;*/
 	margin-top: 7px;
 	width: 12px;
 	text-align: right;
 	background: url(../image/arrow_bottom.png) no-repeat;
-}
-
-.select-template{
-
 }
 
 
@@ -2177,7 +2172,6 @@ span.button-read-full {
 .dropdown-toggle{
 	height: 40px;
 	width: 100%;
-	min-width: 220px;
 	padding: 10px 30px 10px 20px;
 }
 
@@ -2193,15 +2187,33 @@ span.button-read-full {
 
 /*header*/
 
-.header-select .bootstrap-select{
+.header-select .dropdown-toggle{
+	font-weight: 600;
 	font-size: 14px;
 }
 
-.header-select .dropdown-toggle{
+.filter-box .dropdown-toggle{
 	font-weight: 600;
+	font-size: 14px;
 }
 
 
 .header-select .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 98%;
+}
+
+
+/*filter*/
+
+.filter-box .dropdown-toggle{
+	font-size: 12px;
+}
+
+
+.filter-box .dropdown-menu{
+	font-size: 12px;
+}
+
+.filter-box .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
 	width: 100%;
 }

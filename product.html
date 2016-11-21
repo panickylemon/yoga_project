@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/build.css"/>
 	<link rel='stylesheet' href='css/bootstrap-select.min.css'>
-	<!--<link rel='stylesheet' href='css/dropdown.css'>-->
 	<link rel='stylesheet' href='css/style.css'>
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
@@ -26,8 +25,6 @@
 	<script src="js/jquery.inputmask.bundle.js"></script>
 	<script src="owl-carousel2/owl.carousel.js"></script>
 	<script src="js/bootstrap-select.min.js"></script>
-	<!--<script src="js/core.js"></script>-->
-	<!--<script src="js/dropdown.js"></script>-->
 	<script src="js/main.js"></script>
 	<!-- Это всё для fancybox -->
 	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -47,14 +44,26 @@
 			<div class="logo-box col-sm-2"><img src="image/logo.png" alt="логотип"></div>
 			<div>
 				<div class="col-sm-2 header-select">
-					<select id="city">
+					<!--<select id="city">-->
+						<!--<option>Росcия</option>-->
+						<!--<option>Бразилия</option>-->
+						<!--<option>Канада</option>-->
+					<!--</select>-->
+					<select class="selectpicker select-template">
+						<option>Ваша страна</option>
 						<option>Росcия</option>
 						<option>Бразилия</option>
 						<option>Канада</option>
 					</select>
 				</div>
 				<div class="col-sm-2 header-select">
-					<select id="country">
+					<!--<select id="country">-->
+						<!--<option>Санкт-Петербург</option>-->
+						<!--<option>Москва</option>-->
+						<!--<option>Новосибирск</option>-->
+					<!--</select>-->
+					<select class="selectpicker select-template">
+						<option>Ваш город</option>
 						<option>Санкт-Петербург</option>
 						<option>Москва</option>
 						<option>Новосибирск</option>
@@ -578,7 +587,7 @@
 			</div>
 		</div>
 
-		<div class="header-select">
+		<div class="filter-box">
 			<form>
 				<select class="selectpicker select-template">
 					<option>Mustard Mustard Mustard Mustard Mustard</option>
