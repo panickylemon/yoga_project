@@ -368,6 +368,8 @@ h2 {
 
 .sticky {
 	background: #ffffff;
+	position: relative;
+	z-index: 1000;
 }
 
 .navbar-nav {
@@ -435,6 +437,8 @@ nav li a:hover span {
 }
 
 .pointer-menu {
+	position: relative;
+	z-index: 1100;
 	display: block;
 	content: ' ';
 	background: url("../image/pointer_menu.png") no-repeat;
@@ -459,6 +463,9 @@ nav li a:hover span {
 }
 
 .submenu {
+	position: absolute;
+	width: 100%;
+	background: #ffffff;
 	border-top: 1px solid #dddede;
 	-webkit-box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.2);
@@ -1986,7 +1993,7 @@ a.button-read-full {
 }
 
 span.button-read-full {
-	display: none
+	display: none;
 }
 
 .wrapper-item-article:nth-child(2) .box-preview-article {
