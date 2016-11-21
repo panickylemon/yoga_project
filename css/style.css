@@ -2105,3 +2105,78 @@ span.button-read-full {
 .wrapper-item-news{
 	padding-bottom: 30px;
 }
+
+
+
+
+/*bootstrap-select*/
+
+.caret-arrow{
+	display: inline-block;
+	height: 15px;
+	/*margin-right: 25px;*/
+	margin-top: 7px;
+	width: 12px;
+	text-align: right;
+	background: url(../image/arrow_bottom.png) no-repeat;
+}
+
+.select-template{
+
+}
+
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+	color: #404041;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.btn-default:hover {
+	color: #404041;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.btn-default {
+	border: 1px solid #dddddd;
+}
+
+.btn-group.open .dropdown-toggle {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+	outline: none !important;
+}
+
+.btn:active, .btn.active {
+	box-shadow: none;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	color: #404041;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.btn-default:focus, .btn-default.focus {
+	background: #ffffff;
+}
+
+.dropdown-toggle, .dropdown-menu{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+
+.dropdown-toggle{
+	height: 40px;
+	width: 100%;
+	min-width: 220px;
+	padding: 10px 30px 10px 20px;
+}
