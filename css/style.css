@@ -2180,3 +2180,28 @@ span.button-read-full {
 	min-width: 220px;
 	padding: 10px 30px 10px 20px;
 }
+
+.dropdown-menu{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	color: #bf133f;
+	background-color: #ffffff;
+}
+
+/*header*/
+
+.header-select .bootstrap-select{
+	font-size: 14px;
+}
+
+.header-select .dropdown-toggle{
+	font-weight: 600;
+}
+
+
+.header-select .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 100%;
+}
