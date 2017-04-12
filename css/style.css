@@ -503,6 +503,7 @@ nav li a:hover span {
 	margin-top: 12px;
 }
 
+
 /*footer*/
 
 footer {
@@ -2216,4 +2217,8 @@ span.button-read-full {
 
 .filter-box .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
 	width: 100%;
+}
+
+.label-visible {
+	display: block !important;
 }
