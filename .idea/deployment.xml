@@ -2,7 +2,14 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="buket-online">
+      <paths name="rdrill-wp">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zhivoglot">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

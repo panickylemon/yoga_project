@@ -2222,3 +2222,8 @@ span.button-read-full {
 .label-visible {
 	display: block !important;
 }
+
+
+.button-send-grey{
+	background: grey;
+}
