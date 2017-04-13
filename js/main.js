@@ -306,6 +306,7 @@ jQuery(document).ready(function($){
         }
         else {
             $("label[for='"+$(this).attr("id")+"']").removeClass('label-visible');
+            $(".button-send").addClass('button-send-grey');
         }
     });
 

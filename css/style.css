@@ -2227,3 +2227,7 @@ span.button-read-full {
 .button-send-grey{
 	background: grey;
 }
+
+.button-send-grey:hover{
+	background: grey !important;
+}
