@@ -281,24 +281,15 @@ jQuery(document).ready(function($){
             var message = $("#inputMessage").val();
             var is_valid = true;
             if (!message){
-                $("#inputMessage").addClass('form-error');
                 is_valid = false;
-            } else {
-                $("#inputMessage").removeClass('form-error');
             }
             var name = $("#nameInput").val();
             if (!name){
-                $("#nameInput").addClass('form-error');
                 is_valid = false;
-            } else {
-                $("#nameInput").removeClass('form-error');
             }
             var email = $("#emailInput").val();
             if (!email || !isEmail(email)){
-                $("#emailInput").addClass('form-error');
                 is_valid = false;
-            } else {
-                $("#emailInput").removeClass('form-error');
             }
             if (is_valid) {
                 $(".button-send").removeClass('button-send-grey');
